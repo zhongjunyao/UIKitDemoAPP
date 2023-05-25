@@ -2,7 +2,7 @@ source "https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git"
 platform :ios, "13.0"
 use_frameworks!
 
-target "DemoApp" do
+target "UIKitDemoApp" do
 
   pod "Kingfisher", "~> 6.3.1"
   pod "SnapKit"
