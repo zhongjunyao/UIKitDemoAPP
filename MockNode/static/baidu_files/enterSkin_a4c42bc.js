@@ -1,0 +1,1 @@
+!function(){if(location.hash.indexOf("iview=skin")>-1){var a=document.createElement("style");a.setAttribute("id","skin-show"),a.setAttribute("type","text/css"),a.innerHTML="#index-card{display:none;}#page{background-color:#3a3a3a;}",B.$("head").appendChild(a)}}();
