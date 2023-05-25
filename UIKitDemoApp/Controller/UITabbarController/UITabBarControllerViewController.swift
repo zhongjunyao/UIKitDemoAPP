@@ -38,7 +38,7 @@ class UITabBarControllerViewController: UITabBarController {
                 tabBarItem.selectedImage = item["selectedImage"] as? UIImage
                 tabBarItem.title = item["title"] as? String
                 
-                // 只改变文字颜色，建议使用 tabBar.tintColor = UIColor.fontColor
+                // 下行代码只改变文字颜色，建议使用 tabBar.tintColor = UIColor.fontColor
                 // tabBarItem.setTitleTextAttributes([.foregroundColor: UIColor.fontColor], for: .selected)
                 
                 // 创建 UINavigationController
