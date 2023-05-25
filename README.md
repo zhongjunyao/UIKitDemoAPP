@@ -1,7 +1,7 @@
 # UIKitDemoAPP
 
 #### 介绍
-DemoApp for learning UIKit
+UIKitDemoApp for learning UIKit
 
 
 #### 软件架构
