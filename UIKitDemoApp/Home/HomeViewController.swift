@@ -8,13 +8,7 @@
 import UIKit
 import SnapKit
 
-struct CommonCellModel {
-    var title: String
-    var commonCellFlag: String
-    var cell: CommonCell?
-}
-
-class HomeViewController: BaseViewController {
+class HomeViewController: BaseViewController, TabBarViewControllerProtocol {
     var scrollView: UIScrollView!
     var stackView: UIStackView!
     
@@ -70,7 +64,8 @@ class HomeViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "功能页"
+        navigationItem.title = "UIKit-功能页"
+        
         setupViews()
     }
     
@@ -201,8 +196,16 @@ class HomeViewController: BaseViewController {
             print("never found matched item: \(String(describing: sender.commonCellFlag))")
         }
         if targetVC != nil {
+            targetVC?.hidesBottomBarWhenPushed = true
             navigationController?.pushViewController(targetVC!, animated: true)
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        // 返回页面恢复 tabBar
+        hidesBottomBarWhenPushed = false
+        log("viewWillAppear invoked")
     }
 }
 

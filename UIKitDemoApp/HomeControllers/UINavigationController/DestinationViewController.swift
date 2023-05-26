@@ -49,13 +49,14 @@ class DestinationViewController: BaseViewController {
         // 设置右边按钮
         let barButton1 = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.camera, target: self, action: #selector(action1))
         let barButton2 = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.bookmarks, target: self, action: #selector(action2))
-//        navigationItem.rightBarButtonItems = [barButton1, barButton2]
+        navigationItem.rightBarButtonItems = [barButton1, barButton2]
         
-        // 设置工具栏
-        navigationController?.isToolbarHidden = false
-        navigationController?.toolbar.backgroundColor = .white
-        // 添加按钮到工具栏
-        self.toolbarItems = [barButton1, barButton2]
+        // 设置工具栏, 工具栏由于调用的自定义导航类 BaseNavigationController.pushViewController
+        // 工具栏在此界面会变黑隐藏，所以，若想要测试，请复制代码另外起项目测试
+//        navigationController?.isToolbarHidden = false
+//        navigationController?.toolbar.backgroundColor = .white
+//        // 添加按钮到工具栏
+//        self.toolbarItems = [barButton1, barButton2]
     }
     
     @objc func didBackButtonClicked(){

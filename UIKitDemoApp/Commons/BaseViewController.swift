@@ -5,8 +5,6 @@
 //  Created by ROBIN.J.Y.ZHONG on 2023/5/22.
 //
 
-import UIKit
-
 class BaseViewController: UIViewController {
     
     func log(_ items: Any..., separator: String = " ", terminator: String = "\n") {
@@ -16,6 +14,7 @@ class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // 设置状态栏背景色
         UIApplication.statusBarBackgroundColor = .white
         setNeedsStatusBarAppearanceUpdate()
@@ -35,5 +34,4 @@ class BaseViewController: UIViewController {
         // 设置布局的延伸边界
         edgesForExtendedLayout = UIRectEdge(rawValue: 0)
     }
-
 }

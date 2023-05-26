@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A85433490A5382D4F25ED88C /* Pods_UIKitDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4A7F804D47FC4E8E0FDA12 /* Pods_UIKitDemoApp.framework */; };
+		E33572CC2A2097E500B48940 /* CommonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33572CB2A2097E500B48940 /* CommonTabBar.swift */; };
+		E33572D02A20A1E900B48940 /* SeniorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33572CF2A20A1E900B48940 /* SeniorViewController.swift */; };
+		E33572D42A20A25A00B48940 /* CommonCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33572D32A20A25A00B48940 /* CommonCellModel.swift */; };
+		E33572D62A20A28A00B48940 /* CommonTabBarItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33572D52A20A28A00B48940 /* CommonTabBarItemModel.swift */; };
+		E33572D82A20A3D600B48940 /* ReloadOperater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33572D72A20A3D600B48940 /* ReloadOperater.swift */; };
+		E33572DA2A20BE1A00B48940 /* SwiftOCInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33572D92A20BE1A00B48940 /* SwiftOCInteraction.swift */; };
+		E335730D2A20CC1A00B48940 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335730C2A20CC1A00B48940 /* BaseNavigationController.swift */; };
+		E33573132A21094C00B48940 /* TabBarViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33573122A21094C00B48940 /* TabBarViewControllerProtocol.swift */; };
+		E33573152A2113CD00B48940 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33573142A2113CD00B48940 /* SwiftViewController.swift */; };
+		E33573212A211F0700B48940 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E335731E2A211F0700B48940 /* OCViewController.m */; };
 		E371991E2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png in Resources */ = {isa = PBXBuildFile; fileRef = E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */; };
 		E371992E29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */; };
 		E371993029337D6700DFFB90 /* UIProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992F29337D6700DFFB90 /* UIProgressViewController.swift */; };
@@ -64,6 +74,18 @@
 		3B4A7F804D47FC4E8E0FDA12 /* Pods_UIKitDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6218ACC18638FAA802501F9D /* Pods-UIKitDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitDemoApp.release.xcconfig"; path = "Target Support Files/Pods-UIKitDemoApp/Pods-UIKitDemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		7C24D05BF054E4311BE827D9 /* Pods-UIKitDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-UIKitDemoApp/Pods-UIKitDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E33572CB2A2097E500B48940 /* CommonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTabBar.swift; sourceTree = "<group>"; };
+		E33572CF2A20A1E900B48940 /* SeniorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorViewController.swift; sourceTree = "<group>"; };
+		E33572D32A20A25A00B48940 /* CommonCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCellModel.swift; sourceTree = "<group>"; };
+		E33572D52A20A28A00B48940 /* CommonTabBarItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTabBarItemModel.swift; sourceTree = "<group>"; };
+		E33572D72A20A3D600B48940 /* ReloadOperater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadOperater.swift; sourceTree = "<group>"; };
+		E33572D92A20BE1A00B48940 /* SwiftOCInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOCInteraction.swift; sourceTree = "<group>"; };
+		E335730C2A20CC1A00B48940 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		E33573122A21094C00B48940 /* TabBarViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewControllerProtocol.swift; sourceTree = "<group>"; };
+		E33573142A2113CD00B48940 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		E335731E2A211F0700B48940 /* OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		E335731F2A211F0700B48940 /* OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		E33573202A211F0700B48940 /* UIKitDemoApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKitDemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "截屏2022-11-26 19.39.13.png"; sourceTree = "<group>"; };
 		E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		E371992F29337D6700DFFB90 /* UIProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +160,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E33572CE2A20A1D200B48940 /* Senior */ = {
+			isa = PBXGroup;
+			children = (
+				E33572CF2A20A1E900B48940 /* SeniorViewController.swift */,
+			);
+			path = Senior;
+			sourceTree = "<group>";
+		};
+		E33572D12A20A1ED00B48940 /* SeniorControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E33572D72A20A3D600B48940 /* ReloadOperater.swift */,
+				E33572DB2A20BE4D00B48940 /* SwiftOCInteraction */,
+			);
+			path = SeniorControllers;
+			sourceTree = "<group>";
+		};
+		E33572D22A20A24200B48940 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E33572D32A20A25A00B48940 /* CommonCellModel.swift */,
+				E33572D52A20A28A00B48940 /* CommonTabBarItemModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E33572DB2A20BE4D00B48940 /* SwiftOCInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				E33572D92A20BE1A00B48940 /* SwiftOCInteraction.swift */,
+				E33573142A2113CD00B48940 /* SwiftViewController.swift */,
+				E335731F2A211F0700B48940 /* OCViewController.h */,
+				E335731E2A211F0700B48940 /* OCViewController.m */,
+				E33573202A211F0700B48940 /* UIKitDemoApp-Bridging-Header.h */,
+			);
+			path = SwiftOCInteraction;
+			sourceTree = "<group>";
+		};
+		E33573112A21092900B48940 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E33573122A21094C00B48940 /* TabBarViewControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		E3784F9E2A1AF42A00E4BFD7 /* UISegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				E3784FA32A1AF7F800E4BFD7 /* CommonCell.swift */,
+				E33572CB2A2097E500B48940 /* CommonTabBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -176,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				E3784FAB2A1AF93100E4BFD7 /* BaseViewController.swift */,
+				E335730C2A20CC1A00B48940 /* BaseNavigationController.swift */,
 				E3784FAD2A1B014C00E4BFD7 /* CommonUtil.swift */,
 			);
 			path = Commons;
@@ -261,11 +331,15 @@
 		E37908352929E9FA004DF0DF /* UIKitDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				E33573112A21092900B48940 /* Protocols */,
 				E3784FAA2A1AF92300E4BFD7 /* Commons */,
 				E3784FA52A1AF8A800E4BFD7 /* Extensions */,
+				E33572D22A20A24200B48940 /* Entities */,
 				E3784FA22A1AF7E500E4BFD7 /* Components */,
-				E3955AB8293224800041D4F7 /* Controller */,
+				E3955AB8293224800041D4F7 /* HomeControllers */,
+				E33572D12A20A1ED00B48940 /* SeniorControllers */,
 				E3784F9F2A1AF59200E4BFD7 /* Home */,
+				E33572CE2A20A1D200B48940 /* Senior */,
 				E37908362929E9FA004DF0DF /* AppDelegate.swift */,
 				E379083F2929E9FC004DF0DF /* Assets.xcassets */,
 				E37908442929E9FC004DF0DF /* Info.plist */,
@@ -273,7 +347,7 @@
 			path = UIKitDemoApp;
 			sourceTree = "<group>";
 		};
-		E3955AB8293224800041D4F7 /* Controller */ = {
+		E3955AB8293224800041D4F7 /* HomeControllers */ = {
 			isa = PBXGroup;
 			children = (
 				E3784FAF2A1B38D600E4BFD7 /* UILabelViewController.swift */,
@@ -302,7 +376,7 @@
 				E3A84B832A1E66520013B180 /* UINavigationController */,
 				E3A84B862A1F055B0013B180 /* UITabbarController */,
 			);
-			path = Controller;
+			path = HomeControllers;
 			sourceTree = "<group>";
 		};
 		E3A84B7E2A1D1EAE0013B180 /* UICollectionView */ = {
@@ -377,6 +451,7 @@
 				TargetAttributes = {
 					E37908322929E9FA004DF0DF = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -463,12 +538,17 @@
 				E3784FC52A1BBB5900E4BFD7 /* UIStepperViewController.swift in Sources */,
 				E3784FF12A1D0CAD00E4BFD7 /* WKWebViewViewController.swift in Sources */,
 				E3A84B8A2A1F06580013B180 /* TabTwoViewController.swift in Sources */,
+				E33573132A21094C00B48940 /* TabBarViewControllerProtocol.swift in Sources */,
+				E33572D82A20A3D600B48940 /* ReloadOperater.swift in Sources */,
 				E379083B2929E9FA004DF0DF /* HomeViewController.swift in Sources */,
+				E335730D2A20CC1A00B48940 /* BaseNavigationController.swift in Sources */,
 				E3784FDE2A1C894E00E4BFD7 /* UIWebViewViewController.swift in Sources */,
 				E3784FEF2A1CE05000E4BFD7 /* UITableViewMovingViewController.swift in Sources */,
+				E33572DA2A20BE1A00B48940 /* SwiftOCInteraction.swift in Sources */,
 				E3784FA92A1AF8BC00E4BFD7 /* UIColorExtension.swift in Sources */,
 				E3784FA42A1AF7F800E4BFD7 /* CommonCell.swift in Sources */,
 				E3784FD32A1C679B00E4BFD7 /* UIScrollViewViewController2.swift in Sources */,
+				E33572D02A20A1E900B48940 /* SeniorViewController.swift in Sources */,
 				E3A84B822A1E4BD30013B180 /* UICollectionViewCustomLayoutViewController.swift in Sources */,
 				E3784FC32A1BB21E00E4BFD7 /* UIPageControlViewController.swift in Sources */,
 				E3784FDA2A1C885700E4BFD7 /* UIStackViewViewController.swift in Sources */,
@@ -487,12 +567,14 @@
 				E3784FEB2A1CB0A700E4BFD7 /* UITableViewHeaderAndFooterViewController.swift in Sources */,
 				E3784FDC2A1C88D100E4BFD7 /* UICollectionViewFlowLayoutViewController.swift in Sources */,
 				E3A84B852A1E669A0013B180 /* DestinationViewController.swift in Sources */,
+				E33572D42A20A25A00B48940 /* CommonCellModel.swift in Sources */,
 				E37908372929E9FA004DF0DF /* AppDelegate.swift in Sources */,
 				E3784FAC2A1AF93100E4BFD7 /* BaseViewController.swift in Sources */,
 				E3955ABD293232B60041D4F7 /* UISliderViewController2.swift in Sources */,
 				E3955AB32931DC0C0041D4F7 /* UISegmentedViewController2.swift in Sources */,
 				E3784FB92A1B526B00E4BFD7 /* UISearchBarViewController.swift in Sources */,
 				E3955AB52931F2390041D4F7 /* UITextFieldController.swift in Sources */,
+				E33573212A211F0700B48940 /* OCViewController.m in Sources */,
 				E3784FE02A1C89D200E4BFD7 /* UIDatePickerViewController.swift in Sources */,
 				E3784FCE2A1C3EBF00E4BFD7 /* UIActionSheetViewController.swift in Sources */,
 				E3784FD62A1C86C500E4BFD7 /* UITabBarControllerViewController.swift in Sources */,
@@ -502,8 +584,11 @@
 				E3784FE22A1C8A0700E4BFD7 /* UIPickerViewViewController.swift in Sources */,
 				E371993029337D6700DFFB90 /* UIProgressViewController.swift in Sources */,
 				E371992E29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift in Sources */,
+				E33573152A2113CD00B48940 /* SwiftViewController.swift in Sources */,
+				E33572D62A20A28A00B48940 /* CommonTabBarItemModel.swift in Sources */,
 				E3784FB22A1B38E500E4BFD7 /* UIButtonViewController.swift in Sources */,
 				E3784FA72A1AF8B300E4BFD7 /* UIApplicationExtension.swift in Sources */,
+				E33572CC2A2097E500B48940 /* CommonTabBar.swift in Sources */,
 				E3784FB72A1B4A7600E4BFD7 /* UIImageViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -631,6 +716,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQCSDVP53Y;
@@ -649,6 +735,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.robin.UIKitDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UIKitDemoApp/SeniorControllers/SwiftOCInteraction/UIKitDemoApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -660,6 +748,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQCSDVP53Y;
@@ -678,6 +767,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.robin.UIKitDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UIKitDemoApp/SeniorControllers/SwiftOCInteraction/UIKitDemoApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -53,9 +53,9 @@ class CommonCell: UIControl {
         
         addSubview(iconView)
         iconView.snp.makeConstraints { make in
-            make.left.equalToSuperview().offset(20)
+            make.left.equalToSuperview().offset(10)
             make.centerY.equalToSuperview()
-            make.width.height.equalTo(32)
+            make.width.height.equalTo(20)
         }
         
         addSubview(titleView)
@@ -63,13 +63,13 @@ class CommonCell: UIControl {
         titleView.font = UIFont.systemFont(ofSize: 15)
         titleView.snp.makeConstraints {make in
             make.left.equalTo(iconView.snp.right).offset(10)
-            make.right.equalToSuperview().offset(-40)
+            make.right.equalToSuperview().offset(-30)
             make.centerY.equalToSuperview()
         }
         
         addSubview(arrowView)
         arrowView.snp.makeConstraints { make in
-            make.right.equalToSuperview().offset(-20)
+            make.right.equalToSuperview().offset(-10)
             make.centerY.equalToSuperview()
         }
         

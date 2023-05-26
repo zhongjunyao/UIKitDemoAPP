@@ -54,6 +54,8 @@ class UITabBarControllerViewController: UITabBarController {
             }
         }
         
+        // tabBar 的位置
+        
         // 图片文字一起变色
         tabBar.tintColor = UIColor.fontColor
         
