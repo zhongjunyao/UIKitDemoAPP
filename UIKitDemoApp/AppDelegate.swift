@@ -41,3 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
+extension AppDelegate {
+//    func makeAppController() -> AppController.AppControllerTemplate
+}

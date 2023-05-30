@@ -6,14 +6,11 @@
 //
 
 class BaseNavigationController: UINavigationController {
-    
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
-        if !(viewController is TabBarViewControllerProtocol) {
+        if viewControllers.count > 0 {
             viewController.hidesBottomBarWhenPushed = true
             print("BaseNavigationController ==> pushViewController invoked, hide bortom bar")
         }
         super.pushViewController(viewController, animated: animated)
     }
-    
-    
 }

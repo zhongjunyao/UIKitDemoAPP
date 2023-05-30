@@ -7,18 +7,18 @@
 
 import UIKit
 
-class SeniorViewController: BaseViewController, TabBarViewControllerProtocol {
+class SeniorViewController: BaseViewController {
     var scrollView: UIScrollView!
     var stackView: UIStackView!
     
     lazy var items: [CommonCellModel] = [
         CommonCellModel(title: "重载操作符", commonCellFlag: "cell-1"),
         CommonCellModel(title: "Swift与OC交互", commonCellFlag: "cell-2"),
-//        CommonCellModel(title: "UIImageView-图片动画", commonCellFlag: "imageCell"),
-//        CommonCellModel(title: "UIImageView-图片控件属性", commonCellFlag: "imageCell2"),
-//        CommonCellModel(title: "UISearchBar-搜索框控件属性", commonCellFlag: "searchBarCell"),
-//        CommonCellModel(title: "UISearchBar-搜索框控件代理事件", commonCellFlag: "searchBarCell2"),
-//        CommonCellModel(title: "UISwitch-开关控件", commonCellFlag: "switchCell"),
+        CommonCellModel(title: "UIKit与SwiftUI交互", commonCellFlag: "cell-3"),
+        CommonCellModel(title: "页面添加侧滑手势", commonCellFlag: "cell-4"),
+        CommonCellModel(title: "async与await使用", commonCellFlag: "cell-5"),
+        CommonCellModel(title: "KVO使用", commonCellFlag: "cell-6"),
+        CommonCellModel(title: "Combine使用", commonCellFlag: "cell-7"),
 //        CommonCellModel(title: "UISegmentedControl-分段控制器", commonCellFlag: "segmentedCell"),
 //        CommonCellModel(title: "UISegmentedControl-分段控制器控制页面", commonCellFlag: "segmentedCell2"),
 //        CommonCellModel(title: "UITextField-输入框", commonCellFlag: "textFieldCell"),
@@ -65,6 +65,7 @@ class SeniorViewController: BaseViewController, TabBarViewControllerProtocol {
         super.viewDidLoad()
         navigationItem.title = "Senior-功能页"
         
+        print("featureConfig==>", featureConfig[0], featureConfig[1])
         setupViews()
     }
     
@@ -115,16 +116,16 @@ class SeniorViewController: BaseViewController, TabBarViewControllerProtocol {
             targetVC = ReloadOperater()
         case "cell-2":
             targetVC = SwiftOCInteraction()
-//        case "imageCell":
-//            targetVC = UIImageViewController()
-//        case "imageCell2":
-//            targetVC = UIImageViewController2()
-//        case "searchBarCell":
-//            targetVC = UISearchBarViewController()
-//        case "searchBarCell2":
-//            targetVC = UISearchBarViewController2()
-//        case "switchCell":
-//            targetVC = UISwitchViewController()
+        case "cell-3":
+            targetVC = UIKitViewController()
+        case "cell-4":
+            targetVC = UIScreenEdgePanGestureRecognizerViewController()
+        case "cell-5":
+            targetVC = AsyncAwaitViewController()
+        case "cell-6":
+            targetVC = KVOViewController()
+        case "cell-7":
+            targetVC = CombineViewController()
 //        case "segmentedCell":
 //            targetVC = UISegmentedViewController()
 //        case "segmentedCell2":

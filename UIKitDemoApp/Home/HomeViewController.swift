@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class HomeViewController: BaseViewController, TabBarViewControllerProtocol {
+class HomeViewController: BaseViewController {
     var scrollView: UIScrollView!
     var stackView: UIStackView!
     

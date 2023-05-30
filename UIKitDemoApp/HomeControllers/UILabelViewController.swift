@@ -33,6 +33,7 @@ class UILabelViewController: BaseViewController {
         label.numberOfLines = 0
         // 添加到view
         view.addSubview(label)
+        
     }
 
 }
