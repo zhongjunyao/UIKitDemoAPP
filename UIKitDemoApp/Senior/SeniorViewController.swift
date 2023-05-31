@@ -19,6 +19,7 @@ class SeniorViewController: BaseViewController {
         CommonCellModel(title: "async与await使用", commonCellFlag: "cell-5"),
         CommonCellModel(title: "KVO使用", commonCellFlag: "cell-6"),
         CommonCellModel(title: "Combine使用", commonCellFlag: "cell-7"),
+        CommonCellModel(title: "获取plist文件", commonCellFlag: "cell-8"),
 //        CommonCellModel(title: "UISegmentedControl-分段控制器", commonCellFlag: "segmentedCell"),
 //        CommonCellModel(title: "UISegmentedControl-分段控制器控制页面", commonCellFlag: "segmentedCell2"),
 //        CommonCellModel(title: "UITextField-输入框", commonCellFlag: "textFieldCell"),
@@ -126,8 +127,8 @@ class SeniorViewController: BaseViewController {
             targetVC = KVOViewController()
         case "cell-7":
             targetVC = CombineViewController()
-//        case "segmentedCell":
-//            targetVC = UISegmentedViewController()
+        case "cell-8":
+            targetVC = GetPlistViewController()
 //        case "segmentedCell2":
 //            targetVC = UISegmentedViewController2()
 //        case "textFieldCell":

@@ -7,18 +7,21 @@ UIKitDemoApp for learning UIKit
 #### 软件架构
 软件架构说明
 
+#### 前提要求
+1. 安装 CocoaPods
 
-#### 安装教程
+#### 安装教
+1.  pod install
+2.  打开 UIKitDemoApp.xcworkspace 项目
+3.  运行构建，模拟器选择 iPhone-13 以上
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 页面效果
+<table style="width:100%;table-layout: fixed;">
+    <tr>
+        <td width="50%"><img src="./Images/1@2x.png"></td>
+        <td width="50%"><img src="./Images/2@2x.png"></td>
+    </tr>
+</table>
 
 #### 参与贡献
 

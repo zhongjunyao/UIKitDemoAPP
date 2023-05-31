@@ -28,6 +28,8 @@
 		E36C6BD72A222688009BC3CC /* FeatureIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BD62A222688009BC3CC /* FeatureIntegration.swift */; };
 		E36C6BD92A22E6F7009BC3CC /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BD82A22E6F7009BC3CC /* KVOViewController.swift */; };
 		E36C6BDF2A247F32009BC3CC /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BDE2A247F32009BC3CC /* CombineViewController.swift */; };
+		E36C6BE12A26C9B2009BC3CC /* GetPlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BE02A26C9B2009BC3CC /* GetPlistViewController.swift */; };
+		E36C6BE52A26CD6F009BC3CC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E36C6BE42A26CD6F009BC3CC /* Property List.plist */; };
 		E371991E2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png in Resources */ = {isa = PBXBuildFile; fileRef = E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */; };
 		E371992E29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */; };
 		E371993029337D6700DFFB90 /* UIProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992F29337D6700DFFB90 /* UIProgressViewController.swift */; };
@@ -125,6 +127,8 @@
 		E36C6BD62A222688009BC3CC /* FeatureIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureIntegration.swift; sourceTree = "<group>"; };
 		E36C6BD82A22E6F7009BC3CC /* KVOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
 		E36C6BDE2A247F32009BC3CC /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
+		E36C6BE02A26C9B2009BC3CC /* GetPlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlistViewController.swift; sourceTree = "<group>"; };
+		E36C6BE42A26CD6F009BC3CC /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "截屏2022-11-26 19.39.13.png"; sourceTree = "<group>"; };
 		E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		E371992F29337D6700DFFB90 /* UIProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +236,7 @@
 				E36C6BD22A21B698009BC3CC /* AsyncAwaitViewController.swift */,
 				E36C6BDC2A247DA0009BC3CC /* KVO */,
 				E36C6BDD2A247F0A009BC3CC /* Combine */,
+				E36C6BE22A26C9B6009BC3CC /* Plist */,
 			);
 			path = SeniorControllers;
 			sourceTree = "<group>";
@@ -298,6 +303,23 @@
 				E36C6BDE2A247F32009BC3CC /* CombineViewController.swift */,
 			);
 			path = Combine;
+			sourceTree = "<group>";
+		};
+		E36C6BE22A26C9B6009BC3CC /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6BE32A26CD4A009BC3CC /* resources */,
+				E36C6BE02A26C9B2009BC3CC /* GetPlistViewController.swift */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		E36C6BE32A26CD4A009BC3CC /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6BE42A26CD6F009BC3CC /* Property List.plist */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 		E3784F9E2A1AF42A00E4BFD7 /* UISegmentedControl */ = {
@@ -635,6 +657,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36C6BE52A26CD6F009BC3CC /* Property List.plist in Resources */,
 				E371991E2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png in Resources */,
 				E37908402929E9FC004DF0DF /* Assets.xcassets in Resources */,
 			);
@@ -712,6 +735,7 @@
 				E3784FE92A1CADAB00E4BFD7 /* UITableViewGroupedViewController.swift in Sources */,
 				E3784FC52A1BBB5900E4BFD7 /* UIStepperViewController.swift in Sources */,
 				E36C6B952A21A569009BC3CC /* UIKitViewController.swift in Sources */,
+				E36C6BE12A26C9B2009BC3CC /* GetPlistViewController.swift in Sources */,
 				E3784FF12A1D0CAD00E4BFD7 /* WKWebViewViewController.swift in Sources */,
 				E36C6BDF2A247F32009BC3CC /* CombineViewController.swift in Sources */,
 				E3A84B8A2A1F06580013B180 /* TabTwoViewController.swift in Sources */,
