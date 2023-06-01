@@ -322,6 +322,15 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
+		E36C6BE62A284591009BC3CC /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				E3784FDD2A1C894E00E4BFD7 /* UIWebViewViewController.swift */,
+				E3784FF02A1D0CAD00E4BFD7 /* WKWebViewViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 		E3784F9E2A1AF42A00E4BFD7 /* UISegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,8 +497,7 @@
 				E3784FE32A1C8A5100E4BFD7 /* UITextViewViewController.swift */,
 				E3784FE12A1C8A0700E4BFD7 /* UIPickerViewViewController.swift */,
 				E3784FDF2A1C89D200E4BFD7 /* UIDatePickerViewController.swift */,
-				E3784FDD2A1C894E00E4BFD7 /* UIWebViewViewController.swift */,
-				E3784FF02A1D0CAD00E4BFD7 /* WKWebViewViewController.swift */,
+				E36C6BE62A284591009BC3CC /* WebView */,
 				E3A84B7E2A1D1EAE0013B180 /* UICollectionView */,
 				E3784FD92A1C885700E4BFD7 /* UIStackViewViewController.swift */,
 				E3A84B832A1E66520013B180 /* UINavigationController */,

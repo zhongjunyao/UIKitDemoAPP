@@ -7,6 +7,7 @@
 
 import UIKit
 import WebKit
+import SnapKit
 
 class WKWebViewViewController: BaseViewController {
 
@@ -20,20 +21,46 @@ class WKWebViewViewController: BaseViewController {
     }
     
     func setupViews(){
-        wkWebView = WKWebView(frame: view.frame)
+        wkWebView = WKWebView()
         view.addSubview(wkWebView)
+        wkWebView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
         
         // 加载网页
-        let request: URLRequest = URLRequest(url: URL(filePath: "http://www.toutiao.com"))
+        // https://www.toutiao.com/， 这个url 已经适配了ios的webview 刘海屏
+        // https://cn.bing.com/, 这个url不会占满全屏，ios 的webview 刘海屏适配方案优选h5解决
+        // 在需要适配iphone X的头部添加一行代码，这也是苹果官方提供的适配iphoneX的方式。
+        // <meta name="viewport" content="viewport-fit=cover" />
+        let url = URL(string: "https://www.toutiao.com/")
+        let request: URLRequest = URLRequest(url: url!)
         wkWebView.load(request)
         
         // 设置代理
+        wkWebView.navigationDelegate = self
         wkWebView.uiDelegate = self
     }
 
 }
 
+extension WKWebViewViewController : WKNavigationDelegate {
+    func webView(_ webView: WKWebView, navigationAction: WKNavigationAction, didBecome download: WKDownload) {
+        print("webView navigationAction did become download")
+    }
+    
+    // 打印出所有请求的URL
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+        let url = navigationAction.request.url
+        print("URL = ", url)
+        print("scheme = ", url?.scheme)
+        
+        // 让navigation继续执行
+        decisionHandler(WKNavigationActionPolicy.allow)
+    }
+}
+
 extension WKWebViewViewController: WKUIDelegate {
+    
     func webViewDidClose(_ webView: WKWebView) {
         print("webViewDidClose invoked")
     }
@@ -75,6 +102,7 @@ extension WKWebViewViewController: WKUIDelegate {
     func webView(_ webView: WKWebView, contextMenuForElement elementInfo: WKContextMenuElementInfo, willCommitWithAnimator animator: UIContextMenuInteractionCommitAnimating) {
         print("webView contextMenuForElement willCommitWithAnimator invoked")
     }
+    
     
 //    func webView(_ webView: WKWebView, decideMediaCapturePermissionsFor origin: WKSecurityOrigin, initiatedBy frame: WKFrameInfo, type: WKMediaCaptureType) async -> WKPermissionDecision {
 //        print("webView decideMediaCapturePermissionsFor initiatedBy frame invoked")

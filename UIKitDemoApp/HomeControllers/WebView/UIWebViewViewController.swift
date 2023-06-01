@@ -8,7 +8,6 @@
 import UIKit
 import SnapKit
 
-
 class UIWebViewViewController: BaseViewController {
     
     var webView: UIWebView!
@@ -23,9 +22,17 @@ class UIWebViewViewController: BaseViewController {
     func setupViews(){
         webView = UIWebView(frame: view.frame)
         view.addSubview(webView)
+        webView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
         
         // 加载网页
-        let request: URLRequest = URLRequest(url: URL(filePath: "http://192.168.0.106:8001/resource/baidu.html"))
+        // https://www.toutiao.com/， 这个url 已经适配了ios的webview 刘海屏
+        // https://cn.bing.com/, 这个url不会占满全屏，ios 的webview 刘海屏适配方案优选h5解决
+        // 在需要适配iphone X的头部添加一行代码，这也是苹果官方提供的适配iphoneX的方式。
+        // <meta name="viewport" content="viewport-fit=cover" />
+        let url = URL(string: "https://cn.bing.com/")
+        let request: URLRequest = URLRequest(url: url!)
         webView.loadRequest(request)
         
         // 设置代理
