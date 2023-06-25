@@ -30,6 +30,9 @@
 		E36C6BDF2A247F32009BC3CC /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BDE2A247F32009BC3CC /* CombineViewController.swift */; };
 		E36C6BE12A26C9B2009BC3CC /* GetPlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BE02A26C9B2009BC3CC /* GetPlistViewController.swift */; };
 		E36C6BE52A26CD6F009BC3CC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E36C6BE42A26CD6F009BC3CC /* Property List.plist */; };
+		E36C6BE92A287F00009BC3CC /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BE82A287F00009BC3CC /* NotificationViewController.swift */; };
+		E36C6BEB2A47DBE8009BC3CC /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BEA2A47DBE8009BC3CC /* AccessibilityViewController.swift */; };
+		E36C6BEE2A47E32F009BC3CC /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BED2A47E32F009BC3CC /* LaunchViewController.swift */; };
 		E371991E2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png in Resources */ = {isa = PBXBuildFile; fileRef = E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */; };
 		E371992E29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */; };
 		E371993029337D6700DFFB90 /* UIProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992F29337D6700DFFB90 /* UIProgressViewController.swift */; };
@@ -129,6 +132,9 @@
 		E36C6BDE2A247F32009BC3CC /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
 		E36C6BE02A26C9B2009BC3CC /* GetPlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlistViewController.swift; sourceTree = "<group>"; };
 		E36C6BE42A26CD6F009BC3CC /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		E36C6BE82A287F00009BC3CC /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		E36C6BEA2A47DBE8009BC3CC /* AccessibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
+		E36C6BED2A47E32F009BC3CC /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "截屏2022-11-26 19.39.13.png"; sourceTree = "<group>"; };
 		E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		E371992F29337D6700DFFB90 /* UIProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewController.swift; sourceTree = "<group>"; };
@@ -230,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				E33572D72A20A3D600B48940 /* ReloadOperater.swift */,
+				E36C6BEF2A47E343009BC3CC /* LaunchScreen */,
 				E33572DB2A20BE4D00B48940 /* SwiftOCInteraction */,
 				E36C6B932A21A4D3009BC3CC /* UIKitSwiftIUIInteraction */,
 				E36C6BD42A21B7FA009BC3CC /* UIScreenEdgePanGestureRecognizerViewController.swift */,
@@ -237,6 +244,7 @@
 				E36C6BDC2A247DA0009BC3CC /* KVO */,
 				E36C6BDD2A247F0A009BC3CC /* Combine */,
 				E36C6BE22A26C9B6009BC3CC /* Plist */,
+				E36C6BEC2A47DBF1009BC3CC /* Accessibility */,
 			);
 			path = SeniorControllers;
 			sourceTree = "<group>";
@@ -329,6 +337,30 @@
 				E3784FF02A1D0CAD00E4BFD7 /* WKWebViewViewController.swift */,
 			);
 			path = WebView;
+			sourceTree = "<group>";
+		};
+		E36C6BE72A287EDD009BC3CC /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6BE82A287F00009BC3CC /* NotificationViewController.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		E36C6BEC2A47DBF1009BC3CC /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6BEA2A47DBE8009BC3CC /* AccessibilityViewController.swift */,
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
+		E36C6BEF2A47E343009BC3CC /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6BED2A47E32F009BC3CC /* LaunchViewController.swift */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 		E3784F9E2A1AF42A00E4BFD7 /* UISegmentedControl */ = {
@@ -502,6 +534,7 @@
 				E3784FD92A1C885700E4BFD7 /* UIStackViewViewController.swift */,
 				E3A84B832A1E66520013B180 /* UINavigationController */,
 				E3A84B862A1F055B0013B180 /* UITabbarController */,
+				E36C6BE72A287EDD009BC3CC /* Notification */,
 			);
 			path = HomeControllers;
 			sourceTree = "<group>";
@@ -741,6 +774,7 @@
 				E3784FCC2A1BC4BC00E4BFD7 /* UIAlertViewViewController.swift in Sources */,
 				E36C6BD32A21B698009BC3CC /* AsyncAwaitViewController.swift in Sources */,
 				E3784FE92A1CADAB00E4BFD7 /* UITableViewGroupedViewController.swift in Sources */,
+				E36C6BEE2A47E32F009BC3CC /* LaunchViewController.swift in Sources */,
 				E3784FC52A1BBB5900E4BFD7 /* UIStepperViewController.swift in Sources */,
 				E36C6B952A21A569009BC3CC /* UIKitViewController.swift in Sources */,
 				E36C6BE12A26C9B2009BC3CC /* GetPlistViewController.swift in Sources */,
@@ -758,6 +792,7 @@
 				E36C6B972A21A5B1009BC3CC /* SwiftUIView.swift in Sources */,
 				E3784FA92A1AF8BC00E4BFD7 /* UIColorExtension.swift in Sources */,
 				E3784FA42A1AF7F800E4BFD7 /* CommonCell.swift in Sources */,
+				E36C6BE92A287F00009BC3CC /* NotificationViewController.swift in Sources */,
 				E3784FD32A1C679B00E4BFD7 /* UIScrollViewViewController2.swift in Sources */,
 				E33572D02A20A1E900B48940 /* SeniorViewController.swift in Sources */,
 				E3A84B822A1E4BD30013B180 /* UICollectionViewCustomLayoutViewController.swift in Sources */,
@@ -769,6 +804,7 @@
 				E3784FB42A1B423800E4BFD7 /* UIImageViewController.swift in Sources */,
 				E3784FC92A1BC29800E4BFD7 /* UIAlertControllerViewController2.swift in Sources */,
 				E3A84B802A1DA0B80013B180 /* UICollectionViewFlowLayoutViewController2.swift in Sources */,
+				E36C6BEB2A47DBE8009BC3CC /* AccessibilityViewController.swift in Sources */,
 				E3784FED2A1CBAC000E4BFD7 /* UITableViewEditingViewController.swift in Sources */,
 				E36C6BD72A222688009BC3CC /* FeatureIntegration.swift in Sources */,
 				E3784FC02A1B71FB00E4BFD7 /* UISegmentedViewController.swift in Sources */,
@@ -1023,6 +1059,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QQCSDVP53Y;
@@ -1040,6 +1077,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.robin.UIKitDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "UIKitDemoApp/SeniorControllers/SwiftOCInteraction/UIKitDemoApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";

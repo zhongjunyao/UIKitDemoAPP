@@ -20,7 +20,7 @@ class SeniorViewController: BaseViewController {
         CommonCellModel(title: "KVO使用", commonCellFlag: "cell-6"),
         CommonCellModel(title: "Combine使用", commonCellFlag: "cell-7"),
         CommonCellModel(title: "获取plist文件", commonCellFlag: "cell-8"),
-//        CommonCellModel(title: "UISegmentedControl-分段控制器", commonCellFlag: "segmentedCell"),
+        CommonCellModel(title: "Accessibility的使用", commonCellFlag: "cell-9"),
 //        CommonCellModel(title: "UISegmentedControl-分段控制器控制页面", commonCellFlag: "segmentedCell2"),
 //        CommonCellModel(title: "UITextField-输入框", commonCellFlag: "textFieldCell"),
 //        CommonCellModel(title: "UISlider-滑块控件属性", commonCellFlag: "sliderCell"),
@@ -129,8 +129,8 @@ class SeniorViewController: BaseViewController {
             targetVC = CombineViewController()
         case "cell-8":
             targetVC = GetPlistViewController()
-//        case "segmentedCell2":
-//            targetVC = UISegmentedViewController2()
+        case "cell-9":
+            targetVC = AccessibilityViewController()
 //        case "textFieldCell":
 //            targetVC = UITextFieldController()
 //        case "sliderCell":
