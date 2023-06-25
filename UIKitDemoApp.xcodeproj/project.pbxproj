@@ -31,8 +31,8 @@
 		E36C6BE12A26C9B2009BC3CC /* GetPlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BE02A26C9B2009BC3CC /* GetPlistViewController.swift */; };
 		E36C6BE52A26CD6F009BC3CC /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E36C6BE42A26CD6F009BC3CC /* Property List.plist */; };
 		E36C6BE92A287F00009BC3CC /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BE82A287F00009BC3CC /* NotificationViewController.swift */; };
-		E36C6BEB2A47DBE8009BC3CC /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BEA2A47DBE8009BC3CC /* AccessibilityViewController.swift */; };
 		E36C6BEE2A47E32F009BC3CC /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BED2A47E32F009BC3CC /* LaunchViewController.swift */; };
+		E36C6BF12A480B37009BC3CC /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BF02A480B37009BC3CC /* AccessibilityViewController.swift */; };
 		E371991E2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png in Resources */ = {isa = PBXBuildFile; fileRef = E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */; };
 		E371992E29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */; };
 		E371993029337D6700DFFB90 /* UIProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992F29337D6700DFFB90 /* UIProgressViewController.swift */; };
@@ -133,8 +133,8 @@
 		E36C6BE02A26C9B2009BC3CC /* GetPlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlistViewController.swift; sourceTree = "<group>"; };
 		E36C6BE42A26CD6F009BC3CC /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		E36C6BE82A287F00009BC3CC /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
-		E36C6BEA2A47DBE8009BC3CC /* AccessibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
 		E36C6BED2A47E32F009BC3CC /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		E36C6BF02A480B37009BC3CC /* AccessibilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
 		E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "截屏2022-11-26 19.39.13.png"; sourceTree = "<group>"; };
 		E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		E371992F29337D6700DFFB90 /* UIProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewController.swift; sourceTree = "<group>"; };
@@ -350,7 +350,7 @@
 		E36C6BEC2A47DBF1009BC3CC /* Accessibility */ = {
 			isa = PBXGroup;
 			children = (
-				E36C6BEA2A47DBE8009BC3CC /* AccessibilityViewController.swift */,
+				E36C6BF02A480B37009BC3CC /* AccessibilityViewController.swift */,
 			);
 			path = Accessibility;
 			sourceTree = "<group>";
@@ -798,13 +798,13 @@
 				E3A84B822A1E4BD30013B180 /* UICollectionViewCustomLayoutViewController.swift in Sources */,
 				E3784FC32A1BB21E00E4BFD7 /* UIPageControlViewController.swift in Sources */,
 				E3784FDA2A1C885700E4BFD7 /* UIStackViewViewController.swift in Sources */,
+				E36C6BF12A480B37009BC3CC /* AccessibilityViewController.swift in Sources */,
 				E3784FC72A1BC28D00E4BFD7 /* UIAlertControllerViewController.swift in Sources */,
 				E3784FE42A1C8A5100E4BFD7 /* UITextViewViewController.swift in Sources */,
 				E3784FB02A1B38D600E4BFD7 /* UILabelViewController.swift in Sources */,
 				E3784FB42A1B423800E4BFD7 /* UIImageViewController.swift in Sources */,
 				E3784FC92A1BC29800E4BFD7 /* UIAlertControllerViewController2.swift in Sources */,
 				E3A84B802A1DA0B80013B180 /* UICollectionViewFlowLayoutViewController2.swift in Sources */,
-				E36C6BEB2A47DBE8009BC3CC /* AccessibilityViewController.swift in Sources */,
 				E3784FED2A1CBAC000E4BFD7 /* UITableViewEditingViewController.swift in Sources */,
 				E36C6BD72A222688009BC3CC /* FeatureIntegration.swift in Sources */,
 				E3784FC02A1B71FB00E4BFD7 /* UISegmentedViewController.swift in Sources */,
