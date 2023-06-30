@@ -1,0 +1,11 @@
+//
+//  Others.xcconfig
+//  UIKitDemoApp
+//
+//  Created by ROBIN.J.Y.ZHONG on 2023/6/26.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SENIOR_CONFIG_DIR = $(SOURCE_ROOT)/UIKitDemoApp/SeniorControllers/Xconfig/

@@ -206,7 +206,7 @@
 		338B32B79CB39824B3D7F311CACB96DE /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		34B403EEAD353AF19EB1CD04EBE48D1D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
 		35A28F346A733E269B45A9E20DA2C38C /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
-		368FEC0A12280B7E8BD043D1A7D4FE12 /* Pods-UIKitDemoApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIKitDemoApp"; path = Pods_UIKitDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		368FEC0A12280B7E8BD043D1A7D4FE12 /* Pods_UIKitDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B6C8475E8B1FFBAD7999088B7C6E36 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image/Image.swift; sourceTree = "<group>"; };
 		3854EB455323060891C3BFF7A1385D20 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
 		3BA6C28D7687233A39B4147B3E0A7E3E /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
@@ -281,7 +281,7 @@
 		9AC473726C9EDB4EC2FBDC1A00E3BAA1 /* Unifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unifiable.swift; path = Sources/RswiftResources/Shared/Unifiable.swift; sourceTree = "<group>"; };
 		9C1839CAB10092F58AAE63EEA8EC8142 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
 		9CBD8AAE6629FA60A4112AA6C3AD6AC4 /* FontResource+Integrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FontResource+Integrations.swift"; path = "Sources/RswiftResources/Integrations/FontResource+Integrations.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E629C2F04E766EE6682FEC1F117C3C6 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		A079EBB7420E11BAF6A840A8BF4B66C0 /* RetryStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryStrategy.swift; path = Sources/Networking/RetryStrategy.swift; sourceTree = "<group>"; };
 		A2128FEACE4BE3CE780C6079102F388F /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
@@ -405,7 +405,7 @@
 			isa = PBXGroup;
 			children = (
 				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
-				368FEC0A12280B7E8BD043D1A7D4FE12 /* Pods-UIKitDemoApp */,
+				368FEC0A12280B7E8BD043D1A7D4FE12 /* Pods_UIKitDemoApp.framework */,
 				3EA5BDD6DA462D45C28EA963654D95D3 /* R.swift */,
 				979486118B3E90C08386079D57962701 /* SnapKit */,
 			);
@@ -483,7 +483,6 @@
 				AEF4E4DA45F31795088331B3E2087500 /* WKInterfaceImage+Kingfisher.swift */,
 				DB4DD591B17AC43AEE76999322C78107 /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -578,7 +577,6 @@
 				6E2B30367342050DAF694587279E9075 /* ValidationError.swift */,
 				EB1FFB5E3548A1BB28A49F34BDCA67E8 /* Support Files */,
 			);
-			name = R.swift;
 			path = R.swift;
 			sourceTree = "<group>";
 		};
@@ -632,7 +630,6 @@
 				F9EE41D19D9522D7DCFF283093C49FDE /* UILayoutSupport+Extensions.swift */,
 				271E397AB9341E4BFE7F06E2CA1E005D /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -743,7 +740,7 @@
 			);
 			name = "Pods-UIKitDemoApp";
 			productName = Pods_UIKitDemoApp;
-			productReference = 368FEC0A12280B7E8BD043D1A7D4FE12 /* Pods-UIKitDemoApp */;
+			productReference = 368FEC0A12280B7E8BD043D1A7D4FE12 /* Pods_UIKitDemoApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */ = {

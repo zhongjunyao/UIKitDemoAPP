@@ -21,9 +21,9 @@ class SeniorViewController: BaseViewController {
         CommonCellModel(title: "Combine使用", commonCellFlag: "cell-7"),
         CommonCellModel(title: "获取plist文件", commonCellFlag: "cell-8"),
         CommonCellModel(title: "Accessibility的使用", commonCellFlag: "cell-9"),
-//        CommonCellModel(title: "UISegmentedControl-分段控制器控制页面", commonCellFlag: "segmentedCell2"),
-//        CommonCellModel(title: "UITextField-输入框", commonCellFlag: "textFieldCell"),
-//        CommonCellModel(title: "UISlider-滑块控件属性", commonCellFlag: "sliderCell"),
+        CommonCellModel(title: "国际化-iOS自带方式", commonCellFlag: "cell-10"),
+        CommonCellModel(title: "国际化-拓展iOS自带方式", commonCellFlag: "cell-11"),
+        CommonCellModel(title: "纯原生代码实现的自动布局", commonCellFlag: "cell-12"),
 //        CommonCellModel(title: "UISlider-滑块控制图片大小", commonCellFlag: "sliderCell2"),
 //        CommonCellModel(title: "UIActivityIndicatorView-提示器", commonCellFlag: "activityIndicatorCell"),
 //        CommonCellModel(title: "UIProgressView-进度条", commonCellFlag: "progressCell"),
@@ -131,12 +131,12 @@ class SeniorViewController: BaseViewController {
             targetVC = GetPlistViewController()
         case "cell-9":
             targetVC = AccessibilityViewController()
-//        case "textFieldCell":
-//            targetVC = UITextFieldController()
-//        case "sliderCell":
-//            targetVC = UISliderViewController()
-//        case "sliderCell2":
-//            targetVC = UISliderViewController2()
+        case "cell-10":
+            targetVC = LocalizableViewController()
+        case "cell-11":
+            targetVC = LocalizableViewController2()
+        case "cell-12":
+            targetVC = AutoLayoutViewController()
 //        case "activityIndicatorCell":
 //            targetVC = UIActivityIndicatorViewController()
 //        case "progressCell":

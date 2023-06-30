@@ -33,6 +33,10 @@
 		E36C6BE92A287F00009BC3CC /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BE82A287F00009BC3CC /* NotificationViewController.swift */; };
 		E36C6BEE2A47E32F009BC3CC /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BED2A47E32F009BC3CC /* LaunchViewController.swift */; };
 		E36C6BF12A480B37009BC3CC /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BF02A480B37009BC3CC /* AccessibilityViewController.swift */; };
+		E36C6BF32A484244009BC3CC /* AccessibilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BF22A484244009BC3CC /* AccessibilityUITests.swift */; };
+		E36C6BFC2A4C79DB009BC3CC /* LocalizableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BFB2A4C79DB009BC3CC /* LocalizableViewController.swift */; };
+		E36C6BFF2A4C7BAA009BC3CC /* LocalizableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BFE2A4C7BAA009BC3CC /* LocalizableViewController2.swift */; };
+		E36C6C012A4E7AEF009BC3CC /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C002A4E7AEF009BC3CC /* AutoLayoutViewController.swift */; };
 		E371991E2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png in Resources */ = {isa = PBXBuildFile; fileRef = E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */; };
 		E371992E29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */; };
 		E371993029337D6700DFFB90 /* UIProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992F29337D6700DFFB90 /* UIProgressViewController.swift */; };
@@ -135,6 +139,12 @@
 		E36C6BE82A287F00009BC3CC /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		E36C6BED2A47E32F009BC3CC /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		E36C6BF02A480B37009BC3CC /* AccessibilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
+		E36C6BF22A484244009BC3CC /* AccessibilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityUITests.swift; sourceTree = "<group>"; };
+		E36C6BF92A496E2D009BC3CC /* Main.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Main.xcconfig; sourceTree = "<group>"; };
+		E36C6BFA2A496E8A009BC3CC /* Others.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Others.xcconfig; sourceTree = "<group>"; };
+		E36C6BFB2A4C79DB009BC3CC /* LocalizableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableViewController.swift; sourceTree = "<group>"; };
+		E36C6BFE2A4C7BAA009BC3CC /* LocalizableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableViewController2.swift; sourceTree = "<group>"; };
+		E36C6C002A4E7AEF009BC3CC /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
 		E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "截屏2022-11-26 19.39.13.png"; sourceTree = "<group>"; };
 		E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		E371992F29337D6700DFFB90 /* UIProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewController.swift; sourceTree = "<group>"; };
@@ -245,6 +255,9 @@
 				E36C6BDD2A247F0A009BC3CC /* Combine */,
 				E36C6BE22A26C9B6009BC3CC /* Plist */,
 				E36C6BEC2A47DBF1009BC3CC /* Accessibility */,
+				E36C6BF82A496D9F009BC3CC /* Xconfig */,
+				E36C6BFD2A4C79DF009BC3CC /* Localizable */,
+				E36C6C022A4E7B20009BC3CC /* AutoLayout */,
 			);
 			path = SeniorControllers;
 			sourceTree = "<group>";
@@ -283,6 +296,7 @@
 			children = (
 				E36C6B8A2A2190E8009BC3CC /* UIKitDemoAppUITests.swift */,
 				E36C6B8C2A2190E8009BC3CC /* UIKitDemoAppUITestsLaunchTests.swift */,
+				E36C6BF52A48425C009BC3CC /* SeniorControllers */,
 			);
 			path = UIKitDemoAppUITests;
 			sourceTree = "<group>";
@@ -361,6 +375,48 @@
 				E36C6BED2A47E32F009BC3CC /* LaunchViewController.swift */,
 			);
 			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		E36C6BF42A484255009BC3CC /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6BF22A484244009BC3CC /* AccessibilityUITests.swift */,
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
+		E36C6BF52A48425C009BC3CC /* SeniorControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6BF42A484255009BC3CC /* Accessibility */,
+			);
+			path = SeniorControllers;
+			sourceTree = "<group>";
+		};
+		E36C6BF82A496D9F009BC3CC /* Xconfig */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6BF92A496E2D009BC3CC /* Main.xcconfig */,
+				E36C6BFA2A496E8A009BC3CC /* Others.xcconfig */,
+			);
+			path = Xconfig;
+			sourceTree = "<group>";
+		};
+		E36C6BFD2A4C79DF009BC3CC /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6BFB2A4C79DB009BC3CC /* LocalizableViewController.swift */,
+				E36C6BFE2A4C7BAA009BC3CC /* LocalizableViewController2.swift */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		E36C6C022A4E7B20009BC3CC /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6C002A4E7AEF009BC3CC /* AutoLayoutViewController.swift */,
+			);
+			path = AutoLayout;
 			sourceTree = "<group>";
 		};
 		E3784F9E2A1AF42A00E4BFD7 /* UISegmentedControl */ = {
@@ -761,6 +817,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36C6BF32A484244009BC3CC /* AccessibilityUITests.swift in Sources */,
 				E36C6B8D2A2190E8009BC3CC /* UIKitDemoAppUITestsLaunchTests.swift in Sources */,
 				E36C6B8B2A2190E8009BC3CC /* UIKitDemoAppUITests.swift in Sources */,
 			);
@@ -779,6 +836,7 @@
 				E36C6B952A21A569009BC3CC /* UIKitViewController.swift in Sources */,
 				E36C6BE12A26C9B2009BC3CC /* GetPlistViewController.swift in Sources */,
 				E3784FF12A1D0CAD00E4BFD7 /* WKWebViewViewController.swift in Sources */,
+				E36C6BFC2A4C79DB009BC3CC /* LocalizableViewController.swift in Sources */,
 				E36C6BDF2A247F32009BC3CC /* CombineViewController.swift in Sources */,
 				E3A84B8A2A1F06580013B180 /* TabTwoViewController.swift in Sources */,
 				E36C6BD12A21ABAB009BC3CC /* UIKitThirdViewController.swift in Sources */,
@@ -816,6 +874,7 @@
 				E3784FDC2A1C88D100E4BFD7 /* UICollectionViewFlowLayoutViewController.swift in Sources */,
 				E3A84B852A1E669A0013B180 /* DestinationViewController.swift in Sources */,
 				E33572D42A20A25A00B48940 /* CommonCellModel.swift in Sources */,
+				E36C6C012A4E7AEF009BC3CC /* AutoLayoutViewController.swift in Sources */,
 				E37908372929E9FA004DF0DF /* AppDelegate.swift in Sources */,
 				E3784FAC2A1AF93100E4BFD7 /* BaseViewController.swift in Sources */,
 				E3955ABD293232B60041D4F7 /* UISliderViewController2.swift in Sources */,
@@ -828,6 +887,7 @@
 				E3784FCE2A1C3EBF00E4BFD7 /* UIActionSheetViewController.swift in Sources */,
 				E3784FD62A1C86C500E4BFD7 /* UITabBarControllerViewController.swift in Sources */,
 				E3784FBE2A1B6D9D00E4BFD7 /* UISwitchViewController.swift in Sources */,
+				E36C6BFF2A4C7BAA009BC3CC /* LocalizableViewController2.swift in Sources */,
 				E3784FBC2A1B5BC800E4BFD7 /* UISearchBarViewController2.swift in Sources */,
 				E3955AB7293224620041D4F7 /* UISliderViewController.swift in Sources */,
 				E3784FE22A1C8A0700E4BFD7 /* UIPickerViewViewController.swift in Sources */,

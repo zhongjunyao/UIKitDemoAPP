@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // 定时销毁， 这里不使用使用生命周期函数 func applicationDidBecomeActive(UIApplication) 来销毁
         // 为了方便查看效果，使用定时销毁
-        self.perform(#selector(cancelLaunchWindow), with: nil, afterDelay: 5)
+        self.perform(#selector(cancelLaunchWindow), with: nil, afterDelay: 1)
     }
     
     /**

@@ -1,5 +1,5 @@
 //
-//  UITableViewViewController.swift
+//  UITableViewPlainViewController.swift
 //  UIKitDemoApp
 //
 //  Created by ROBIN.J.Y.ZHONG on 2023/5/23.
@@ -28,11 +28,16 @@ class UITableViewPlainViewController: BaseViewController {
     func setupViews(){
         // 风格：grouped(分组)、insetGrouped(插入分组)、plain(普通)
         tableView = UITableView(frame: .zero, style: .plain)
-        tableView.tableFooterView = UIView()
+        if #available(iOS 15, *) {
+            tableView.sectionHeaderTopPadding = 0
+            // 参考：https://juejin.cn/post/6998783472043032613
+        }
+        tableView.tableFooterView = UIView() // 目的是为了去除 plain 格式下，后面多出来的空行
         // 数据源和代理
         tableView.dataSource = self
         tableView.delegate = self
         
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: reuseIdentifier)
         // 添加到视图
         view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
@@ -56,15 +61,16 @@ extension UITableViewPlainViewController: UITableViewDataSource, UITableViewDele
     // 当展示行时，回调返回cell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        var cell: UITableViewCell? = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier)
-        if cell == nil {
-            cell = UITableViewCell(style: .default, reuseIdentifier: reuseIdentifier)
-        }
+//        var cell: UITableViewCell? = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier)
+//        if cell == nil {
+//            cell = UITableViewCell(style: .default, reuseIdentifier: reuseIdentifier)
+//        }
+        var cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath)
         // indexPath.section 区, indexPath.row 行
-        cell?.textLabel?.text = dataArray[indexPath.row]
-        cell?.separatorInset = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
+        cell.textLabel?.text = dataArray[indexPath.row]
+        cell.separatorInset = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
         
-        return cell!
+        return cell
     }
     
     // 当点击行时，回调
