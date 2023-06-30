@@ -38,7 +38,10 @@
 		E36C6BFF2A4C7BAA009BC3CC /* LocalizableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BFE2A4C7BAA009BC3CC /* LocalizableViewController2.swift */; };
 		E36C6C012A4E7AEF009BC3CC /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C002A4E7AEF009BC3CC /* AutoLayoutViewController.swift */; };
 		E36C6C042A4EA9D3009BC3CC /* SearchClassOrSelectorByStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C032A4EA9D3009BC3CC /* SearchClassOrSelectorByStringViewController.swift */; };
-		E36C6C072A4EAAF9009BC3CC /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C062A4EAAF9009BC3CC /* AlertMessage.swift */; };
+		E36C6C072A4EAAF9009BC3CC /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C062A4EAAF9009BC3CC /* Toast.swift */; };
+		E36C6C092A4F0D4C009BC3CC /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C082A4F0D4C009BC3CC /* Modal.swift */; };
+		E36C6C0B2A4F226A009BC3CC /* CustomModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C0A2A4F226A009BC3CC /* CustomModalViewController.swift */; };
+		E36C6C0E2A4F3FB3009BC3CC /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C0D2A4F3FB3009BC3CC /* AnimationViewController.swift */; };
 		E371991E2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png in Resources */ = {isa = PBXBuildFile; fileRef = E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */; };
 		E371992E29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */; };
 		E371993029337D6700DFFB90 /* UIProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992F29337D6700DFFB90 /* UIProgressViewController.swift */; };
@@ -148,7 +151,10 @@
 		E36C6BFE2A4C7BAA009BC3CC /* LocalizableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableViewController2.swift; sourceTree = "<group>"; };
 		E36C6C002A4E7AEF009BC3CC /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
 		E36C6C032A4EA9D3009BC3CC /* SearchClassOrSelectorByStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchClassOrSelectorByStringViewController.swift; sourceTree = "<group>"; };
-		E36C6C062A4EAAF9009BC3CC /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		E36C6C062A4EAAF9009BC3CC /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		E36C6C082A4F0D4C009BC3CC /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		E36C6C0A2A4F226A009BC3CC /* CustomModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModalViewController.swift; sourceTree = "<group>"; };
+		E36C6C0D2A4F3FB3009BC3CC /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "截屏2022-11-26 19.39.13.png"; sourceTree = "<group>"; };
 		E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		E371992F29337D6700DFFB90 /* UIProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewController.swift; sourceTree = "<group>"; };
@@ -263,6 +269,8 @@
 				E36C6BFD2A4C79DF009BC3CC /* Localizable */,
 				E36C6C022A4E7B20009BC3CC /* AutoLayout */,
 				E36C6C052A4EA9D7009BC3CC /* SearchClassOrSelectorByString */,
+				E36C6C0F2A4F3FB6009BC3CC /* Animation */,
+				E36C6C0C2A4F2270009BC3CC /* CustomModal */,
 			);
 			path = SeniorControllers;
 			sourceTree = "<group>";
@@ -432,6 +440,22 @@
 			path = SearchClassOrSelectorByString;
 			sourceTree = "<group>";
 		};
+		E36C6C0C2A4F2270009BC3CC /* CustomModal */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6C0A2A4F226A009BC3CC /* CustomModalViewController.swift */,
+			);
+			path = CustomModal;
+			sourceTree = "<group>";
+		};
+		E36C6C0F2A4F3FB6009BC3CC /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6C0D2A4F3FB3009BC3CC /* AnimationViewController.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		E3784F9E2A1AF42A00E4BFD7 /* UISegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -454,7 +478,8 @@
 			children = (
 				E3784FA32A1AF7F800E4BFD7 /* CommonCell.swift */,
 				E33572CB2A2097E500B48940 /* CommonTabBar.swift */,
-				E36C6C062A4EAAF9009BC3CC /* AlertMessage.swift */,
+				E36C6C062A4EAAF9009BC3CC /* Toast.swift */,
+				E36C6C082A4F0D4C009BC3CC /* Modal.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -843,14 +868,17 @@
 			files = (
 				E3784FD82A1C87A400E4BFD7 /* UINavigationControllerViewController.swift in Sources */,
 				E3784FCC2A1BC4BC00E4BFD7 /* UIAlertViewViewController.swift in Sources */,
+				E36C6C0E2A4F3FB3009BC3CC /* AnimationViewController.swift in Sources */,
 				E36C6BD32A21B698009BC3CC /* AsyncAwaitViewController.swift in Sources */,
 				E3784FE92A1CADAB00E4BFD7 /* UITableViewGroupedViewController.swift in Sources */,
 				E36C6BEE2A47E32F009BC3CC /* LaunchViewController.swift in Sources */,
+				E36C6C0B2A4F226A009BC3CC /* CustomModalViewController.swift in Sources */,
 				E3784FC52A1BBB5900E4BFD7 /* UIStepperViewController.swift in Sources */,
 				E36C6B952A21A569009BC3CC /* UIKitViewController.swift in Sources */,
 				E36C6BE12A26C9B2009BC3CC /* GetPlistViewController.swift in Sources */,
 				E3784FF12A1D0CAD00E4BFD7 /* WKWebViewViewController.swift in Sources */,
 				E36C6BFC2A4C79DB009BC3CC /* LocalizableViewController.swift in Sources */,
+				E36C6C092A4F0D4C009BC3CC /* Modal.swift in Sources */,
 				E36C6BDF2A247F32009BC3CC /* CombineViewController.swift in Sources */,
 				E3A84B8A2A1F06580013B180 /* TabTwoViewController.swift in Sources */,
 				E36C6BD12A21ABAB009BC3CC /* UIKitThirdViewController.swift in Sources */,
@@ -899,7 +927,7 @@
 				E3955AB52931F2390041D4F7 /* UITextFieldController.swift in Sources */,
 				E33573212A211F0700B48940 /* OCViewController.m in Sources */,
 				E3784FE02A1C89D200E4BFD7 /* UIDatePickerViewController.swift in Sources */,
-				E36C6C072A4EAAF9009BC3CC /* AlertMessage.swift in Sources */,
+				E36C6C072A4EAAF9009BC3CC /* Toast.swift in Sources */,
 				E3784FCE2A1C3EBF00E4BFD7 /* UIActionSheetViewController.swift in Sources */,
 				E3784FD62A1C86C500E4BFD7 /* UITabBarControllerViewController.swift in Sources */,
 				E3784FBE2A1B6D9D00E4BFD7 /* UISwitchViewController.swift in Sources */,

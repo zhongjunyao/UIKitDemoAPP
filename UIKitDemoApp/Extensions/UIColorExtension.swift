@@ -19,6 +19,7 @@ extension UIColor {
     static let primaryBgColor = UIColor.hexColor(0xf8892e)
     static let activeBgColor = UIColor.hexColor(0xff0000)
     static let globalBgColor = UIColor.hexColor(0xf2f4f7)
+    static let modalBgColor = UIColor.hexColor(0x333333, alphaValue: 0.7)
     
     static func randomColor(alpha: CGFloat? = 1) -> UIColor {
         return UIColor(red: CGFloat(arc4random()%255)/255, green: CGFloat(arc4random()%255)/255, blue: CGFloat(arc4random()%255)/255, alpha: alpha!)

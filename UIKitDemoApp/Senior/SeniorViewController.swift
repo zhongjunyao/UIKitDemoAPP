@@ -25,7 +25,8 @@ class SeniorViewController: BaseViewController {
         CommonCellModel(title: "国际化-拓展iOS自带方式", commonCellFlag: "cell-11"),
         CommonCellModel(title: "纯原生代码实现的自动布局", commonCellFlag: "cell-12"),
         CommonCellModel(title: "通过字符串查找Class或者Selector", commonCellFlag: "cell-13"),
-//        CommonCellModel(title: "UIActivityIndicatorView-提示器", commonCellFlag: "activityIndicatorCell"),
+        CommonCellModel(title: "简单动画", commonCellFlag: "cell-14"),
+        CommonCellModel(title: "自定义底部弹窗", commonCellFlag: "cell-15"),
 //        CommonCellModel(title: "UIProgressView-进度条", commonCellFlag: "progressCell"),
 //        CommonCellModel(title: "UIPageControl-分页控制器", commonCellFlag: "pageControlCell"),
 //        CommonCellModel(title: "UIStepperView-步进控制器", commonCellFlag: "stepperCell"),
@@ -148,10 +149,10 @@ class SeniorViewController: BaseViewController {
             targetVC = AutoLayoutViewController()
         case "cell-13":
             targetVC = SearchClassOrSelectorByStringViewController()
-//        case "progressCell":
-//            targetVC = UIProgressViewController()
-//        case "pageControlCell":
-//            targetVC = UIPageControlViewController()
+        case "cell-14":
+            targetVC = AnimationViewController()
+        case "cell-15":
+            targetVC = CustomModalViewController()
 //        case "stepperCell":
 //            targetVC = UIStepperViewController()
 //        case "alertCell":

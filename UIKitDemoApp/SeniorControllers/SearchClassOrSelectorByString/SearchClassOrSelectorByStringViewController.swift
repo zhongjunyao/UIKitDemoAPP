@@ -12,7 +12,7 @@ class SearchClassOrSelectorByStringViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "通过字符串查找Class或者Selector"
-        AlertMessage(title: "提示", message: "开始初始化").show(in: self)
+        Toast(title: "提示", message: "开始初始化").show(in: self)
         setupUI()
     }
     
@@ -63,14 +63,15 @@ class SearchClassOrSelectorByStringViewController: BaseViewController {
     
     // 因为是通过选择器查找，所以被查询的方法一定要带有 @objc 注解
     @objc func testA(){
-        AlertMessage(title: "提示", message: "点击了确认按钮").show(in: self)
+        Toast(title: "提示", message: "点击了确认按钮").show(in: self)
         print("confirm button clicked")
     }
     // 因为是通过选择器查找，所以被查询的方法一定要带有 @objc 注解
     @objc func testB(){
-        AlertMessage(title: "提示", message: "点击了取消按钮").show(in: self)
+        Toast(title: "提示", message: "点击了取消按钮").show(in: self)
         print("cancel button clicked")
     }
+    
     
     
 }

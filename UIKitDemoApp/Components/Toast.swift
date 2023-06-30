@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AlertMessage {
+class Toast {
     
     var alertVC: UIAlertController!
     
@@ -15,13 +15,13 @@ class AlertMessage {
         self.alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
     }
     
-    func show(in vc: UIViewController){
-        vc.present(self.alertVC, animated: true, completion: {
-            Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false, block: {timer in
+    func show(in vc: UIViewController, wait seconds: Double = 0.5, auto hide: Bool? = true){
+        vc.present(self.alertVC, animated: true, completion: hide! ? {
+            Timer.scheduledTimer(withTimeInterval: seconds, repeats: false, block: {timer in
                 self.alertVC.dismiss(animated: true)
                 timer.invalidate()
             })
-        })
+        } : nil)
     }
     
 }
