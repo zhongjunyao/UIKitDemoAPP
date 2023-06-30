@@ -24,7 +24,7 @@ class SeniorViewController: BaseViewController {
         CommonCellModel(title: "国际化-iOS自带方式", commonCellFlag: "cell-10"),
         CommonCellModel(title: "国际化-拓展iOS自带方式", commonCellFlag: "cell-11"),
         CommonCellModel(title: "纯原生代码实现的自动布局", commonCellFlag: "cell-12"),
-//        CommonCellModel(title: "UISlider-滑块控制图片大小", commonCellFlag: "sliderCell2"),
+        CommonCellModel(title: "通过字符串查找Class或者Selector", commonCellFlag: "cell-13"),
 //        CommonCellModel(title: "UIActivityIndicatorView-提示器", commonCellFlag: "activityIndicatorCell"),
 //        CommonCellModel(title: "UIProgressView-进度条", commonCellFlag: "progressCell"),
 //        CommonCellModel(title: "UIPageControl-分页控制器", commonCellFlag: "pageControlCell"),
@@ -137,8 +137,8 @@ class SeniorViewController: BaseViewController {
             targetVC = LocalizableViewController2()
         case "cell-12":
             targetVC = AutoLayoutViewController()
-//        case "activityIndicatorCell":
-//            targetVC = UIActivityIndicatorViewController()
+        case "cell-13":
+            targetVC = SearchClassOrSelectorByStringViewController()
 //        case "progressCell":
 //            targetVC = UIProgressViewController()
 //        case "pageControlCell":
