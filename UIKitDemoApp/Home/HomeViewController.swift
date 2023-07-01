@@ -60,6 +60,8 @@ class HomeViewController: BaseViewController {
         CommonCellModel(title: "UINavigationController-导航控制器", commonCellFlag: "navigationCell"),
         CommonCellModel(title: "UITabBarController-标签控制器", commonCellFlag: "tabBarCell"),
         
+        CommonCellModel(title: "Notification-消息通知", commonCellFlag: "notificationCell"),
+        
     ]
     
     override func viewDidLoad() {
@@ -192,6 +194,8 @@ class HomeViewController: BaseViewController {
             targetVC = UINavigationControllerViewController()
         case "tabBarCell":
             targetVC = UITabBarControllerViewController()
+        case "notificationCell":
+            targetVC = NotificationViewController()
         default:
             print("never found matched item: \(String(describing: sender.commonCellFlag))")
         }

@@ -27,7 +27,7 @@ class SeniorViewController: BaseViewController {
         CommonCellModel(title: "通过字符串查找Class或者Selector", commonCellFlag: "cell-13"),
         CommonCellModel(title: "简单动画", commonCellFlag: "cell-14"),
         CommonCellModel(title: "自定义底部弹窗", commonCellFlag: "cell-15"),
-//        CommonCellModel(title: "UIProgressView-进度条", commonCellFlag: "progressCell"),
+//        CommonCellModel(title: "消息通知-Notification", commonCellFlag: "cell-16"),
 //        CommonCellModel(title: "UIPageControl-分页控制器", commonCellFlag: "pageControlCell"),
 //        CommonCellModel(title: "UIStepperView-步进控制器", commonCellFlag: "stepperCell"),
 //
@@ -153,8 +153,8 @@ class SeniorViewController: BaseViewController {
             targetVC = AnimationViewController()
         case "cell-15":
             targetVC = CustomModalViewController()
-//        case "stepperCell":
-//            targetVC = UIStepperViewController()
+//        case "cell-16":
+//            targetVC = NotificationViewController()
 //        case "alertCell":
 //            targetVC = UIAlertViewViewController()
 //        case "alertCell2":

@@ -5,7 +5,6 @@
 //  Created by ROBIN.J.Y.ZHONG on 2023/5/22.
 //
 
-import Foundation
 import UIKit
 
 extension UIColor {
@@ -53,6 +52,3 @@ extension UIColor {
     }
     
 }
-
-
-
