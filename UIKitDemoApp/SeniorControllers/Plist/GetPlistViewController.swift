@@ -20,6 +20,8 @@ class GetPlistViewController: BaseViewController {
             
             try method2()
             
+//            try method3()
+            
         } catch {
             // catch 中默认有error字段
             print(error)
@@ -76,8 +78,13 @@ class GetPlistViewController: BaseViewController {
         //读取属性列表文件，并转化为可变字典对象
         let data: NSMutableDictionary = NSMutableDictionary(contentsOfFile: plistPath!)!
         debugPrint("data===>", data)
+//        结果如下：
 //        "data===>" {
 //            ceshi = "hello world";
+//            list =     {
+//                aa = he;
+//                bb = robin;
+//            };
 //            number = 12;
 //        }
     
@@ -85,6 +92,48 @@ class GetPlistViewController: BaseViewController {
        // print(marr)
         let nameArr:[String] = data.allKeys as! [String]
         debugPrint("nameArr===>", nameArr)
-//        "nameArr===>" ["ceshi", "number"]
+//        "nameArr===>" ["ceshi", "number", "list"]
+    }
+    
+    // 方式三：
+    func method3() throws {
+        // 生成文件的存储路径, plist
+        let plistPath = Bundle.main.url(forResource: "Property List", withExtension: "plist")
+        debugPrint("plistPath===>", plistPath)
+        // Optional("/Users/robin.j.y.zhong/Library/Developer/CoreSimulator/Devices/01B740F3-3692-4E6F-86A1-C0D7565FEE7B/data/Containers/Bundle/Application/BC829AB2-6272-41D1-8BC6-1D65FEBADCD7/UIKitDemoApp.app/Property List.plist")
+        
+        
+        // 读取属性列表文件，并转化为字典对象
+        // 读取数据
+        guard let data = plistPath.flatMap({ try? Data(contentsOf: $0) }) else {
+            fatalError("Can not read plist file.")
+        }
+        debugPrint("data===>", data)
+        
+        // 转化为可变的属性序列化列表
+        let propertyList = try? PropertyListSerialization.propertyList(from: data, options: .mutableContainersAndLeaves, format: nil)
+        
+        print("propertyList===>", propertyList)
+//        结果如下：
+//        propertyList===> Optional({
+//            ceshi = "hello world";
+//            list =     {
+//                aa = he;
+//                bb = robin;
+//            };
+//            number = 12;
+//        })
+        
+        // 转变为字典
+        guard let dic = propertyList as? [String: AnyObject] else {
+            fatalError("Can not translate as type [String: AnyObject].")
+        }
+        
+        debugPrint("dic===>", dic)
+//        结果如下：
+//        "dic===>" ["ceshi": hello world, "number": 12, "list": {
+//            aa = he;
+//            bb = robin;
+//        }]
     }
 }

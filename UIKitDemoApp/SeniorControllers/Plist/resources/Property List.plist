@@ -6,5 +6,12 @@
 	<string>hello world</string>
 	<key>number</key>
 	<integer>12</integer>
+	<key>list</key>
+	<dict>
+		<key>aa</key>
+		<string>he</string>
+		<key>bb</key>
+		<string>robin</string>
+	</dict>
 </dict>
 </plist>

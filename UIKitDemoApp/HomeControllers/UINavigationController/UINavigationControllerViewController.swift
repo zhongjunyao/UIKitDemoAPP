@@ -52,7 +52,6 @@ class UINavigationControllerViewController: BaseViewController {
         destinationVC.info = "hello"
         // 跳转到目标页面
         navigationController?.pushViewController(destinationVC, animated: true)
-        
         // 不使用navigationController, 从底部弹出，为 model 形式
 //        present(destinationVC, animated: true)
     }
