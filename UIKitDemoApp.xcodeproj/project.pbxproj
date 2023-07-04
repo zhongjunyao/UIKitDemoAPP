@@ -42,6 +42,15 @@
 		E36C6C092A4F0D4C009BC3CC /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C082A4F0D4C009BC3CC /* Modal.swift */; };
 		E36C6C0B2A4F226A009BC3CC /* CustomModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C0A2A4F226A009BC3CC /* CustomModalViewController.swift */; };
 		E36C6C0E2A4F3FB3009BC3CC /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C0D2A4F3FB3009BC3CC /* AnimationViewController.swift */; };
+		E36C6C142A5180A7009BC3CC /* SwiftLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C132A5180A7009BC3CC /* SwiftLanguageViewController.swift */; };
+		E36C6C182A51AEAC009BC3CC /* DispatchGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C172A51AEAC009BC3CC /* DispatchGroupViewController.swift */; };
+		E36C6C1B2A52A76D009BC3CC /* SCNetworkReachabilityCreateWithAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C1A2A52A76D009BC3CC /* SCNetworkReachabilityCreateWithAddressViewController.swift */; };
+		E36C6C1E2A539C11009BC3CC /* UICollectionViewCustomBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C1D2A539C11009BC3CC /* UICollectionViewCustomBannerViewController.swift */; };
+		E36C6C202A539CD1009BC3CC /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C1F2A539CD1009BC3CC /* BannerView.swift */; };
+		E36C6C222A539D04009BC3CC /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C212A539D04009BC3CC /* BannerCell.swift */; };
+		E36C6C252A53A92F009BC3CC /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C242A53A92F009BC3CC /* FakeData.swift */; };
+		E36C6C272A53A94D009BC3CC /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C262A53A94D009BC3CC /* Deal.swift */; };
+		E36C6C292A53A965009BC3CC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C282A53A965009BC3CC /* Product.swift */; };
 		E371991E2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png in Resources */ = {isa = PBXBuildFile; fileRef = E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */; };
 		E371992E29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */; };
 		E371993029337D6700DFFB90 /* UIProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992F29337D6700DFFB90 /* UIProgressViewController.swift */; };
@@ -155,6 +164,15 @@
 		E36C6C082A4F0D4C009BC3CC /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		E36C6C0A2A4F226A009BC3CC /* CustomModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModalViewController.swift; sourceTree = "<group>"; };
 		E36C6C0D2A4F3FB3009BC3CC /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		E36C6C132A5180A7009BC3CC /* SwiftLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLanguageViewController.swift; sourceTree = "<group>"; };
+		E36C6C172A51AEAC009BC3CC /* DispatchGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroupViewController.swift; sourceTree = "<group>"; };
+		E36C6C1A2A52A76D009BC3CC /* SCNetworkReachabilityCreateWithAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNetworkReachabilityCreateWithAddressViewController.swift; sourceTree = "<group>"; };
+		E36C6C1D2A539C11009BC3CC /* UICollectionViewCustomBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCustomBannerViewController.swift; sourceTree = "<group>"; };
+		E36C6C1F2A539CD1009BC3CC /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		E36C6C212A539D04009BC3CC /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		E36C6C242A53A92F009BC3CC /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
+		E36C6C262A53A94D009BC3CC /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		E36C6C282A53A965009BC3CC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		E371991D2932E00700DFFB90 /* 截屏2022-11-26 19.39.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "截屏2022-11-26 19.39.13.png"; sourceTree = "<group>"; };
 		E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		E371992F29337D6700DFFB90 /* UIProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewController.swift; sourceTree = "<group>"; };
@@ -271,6 +289,8 @@
 				E36C6C052A4EA9D7009BC3CC /* SearchClassOrSelectorByString */,
 				E36C6C0F2A4F3FB6009BC3CC /* Animation */,
 				E36C6C0C2A4F2270009BC3CC /* CustomModal */,
+				E36C6C192A51AEB3009BC3CC /* Dispatch */,
+				E36C6C1C2A52A771009BC3CC /* SystemConfiguration */,
 			);
 			path = SeniorControllers;
 			sourceTree = "<group>";
@@ -456,6 +476,47 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		E36C6C152A5180AF009BC3CC /* SwiftLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6C132A5180A7009BC3CC /* SwiftLanguageViewController.swift */,
+			);
+			path = SwiftLanguage;
+			sourceTree = "<group>";
+		};
+		E36C6C162A51816C009BC3CC /* SwiftLanguageControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftLanguageControllers;
+			sourceTree = "<group>";
+		};
+		E36C6C192A51AEB3009BC3CC /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6C172A51AEAC009BC3CC /* DispatchGroupViewController.swift */,
+			);
+			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		E36C6C1C2A52A771009BC3CC /* SystemConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6C1A2A52A76D009BC3CC /* SCNetworkReachabilityCreateWithAddressViewController.swift */,
+			);
+			path = SystemConfiguration;
+			sourceTree = "<group>";
+		};
+		E36C6C232A53A922009BC3CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6C242A53A92F009BC3CC /* FakeData.swift */,
+				E36C6C262A53A94D009BC3CC /* Deal.swift */,
+				E36C6C282A53A965009BC3CC /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E3784F9E2A1AF42A00E4BFD7 /* UISegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,6 +541,8 @@
 				E33572CB2A2097E500B48940 /* CommonTabBar.swift */,
 				E36C6C062A4EAAF9009BC3CC /* Toast.swift */,
 				E36C6C082A4F0D4C009BC3CC /* Modal.swift */,
+				E36C6C1F2A539CD1009BC3CC /* BannerView.swift */,
+				E36C6C212A539D04009BC3CC /* BannerCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -587,14 +650,17 @@
 		E37908352929E9FA004DF0DF /* UIKitDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				E36C6C232A53A922009BC3CC /* Model */,
 				E3784FAA2A1AF92300E4BFD7 /* Commons */,
 				E3784FA52A1AF8A800E4BFD7 /* Extensions */,
 				E33572D22A20A24200B48940 /* Entities */,
 				E3784FA22A1AF7E500E4BFD7 /* Components */,
 				E3955AB8293224800041D4F7 /* HomeControllers */,
 				E33572D12A20A1ED00B48940 /* SeniorControllers */,
+				E36C6C162A51816C009BC3CC /* SwiftLanguageControllers */,
 				E3784F9F2A1AF59200E4BFD7 /* Home */,
 				E33572CE2A20A1D200B48940 /* Senior */,
+				E36C6C152A5180AF009BC3CC /* SwiftLanguage */,
 				E37908362929E9FA004DF0DF /* AppDelegate.swift */,
 				E379083F2929E9FC004DF0DF /* Assets.xcassets */,
 				E37908442929E9FC004DF0DF /* Info.plist */,
@@ -640,6 +706,7 @@
 				E3784FDB2A1C88D100E4BFD7 /* UICollectionViewFlowLayoutViewController.swift */,
 				E3A84B7F2A1DA0B80013B180 /* UICollectionViewFlowLayoutViewController2.swift */,
 				E3A84B812A1E4BD30013B180 /* UICollectionViewCustomLayoutViewController.swift */,
+				E36C6C1D2A539C11009BC3CC /* UICollectionViewCustomBannerViewController.swift */,
 			);
 			path = UICollectionView;
 			sourceTree = "<group>";
@@ -866,11 +933,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36C6C142A5180A7009BC3CC /* SwiftLanguageViewController.swift in Sources */,
 				E3784FD82A1C87A400E4BFD7 /* UINavigationControllerViewController.swift in Sources */,
 				E3784FCC2A1BC4BC00E4BFD7 /* UIAlertViewViewController.swift in Sources */,
 				E36C6C0E2A4F3FB3009BC3CC /* AnimationViewController.swift in Sources */,
 				E36C6BD32A21B698009BC3CC /* AsyncAwaitViewController.swift in Sources */,
 				E3784FE92A1CADAB00E4BFD7 /* UITableViewGroupedViewController.swift in Sources */,
+				E36C6C252A53A92F009BC3CC /* FakeData.swift in Sources */,
+				E36C6C222A539D04009BC3CC /* BannerCell.swift in Sources */,
 				E36C6BEE2A47E32F009BC3CC /* LaunchViewController.swift in Sources */,
 				E36C6C0B2A4F226A009BC3CC /* CustomModalViewController.swift in Sources */,
 				E3784FC52A1BBB5900E4BFD7 /* UIStepperViewController.swift in Sources */,
@@ -882,6 +952,7 @@
 				E36C6BDF2A247F32009BC3CC /* CombineViewController.swift in Sources */,
 				E3A84B8A2A1F06580013B180 /* TabTwoViewController.swift in Sources */,
 				E36C6BD12A21ABAB009BC3CC /* UIKitThirdViewController.swift in Sources */,
+				E36C6C292A53A965009BC3CC /* Product.swift in Sources */,
 				E33572D82A20A3D600B48940 /* ReloadOperater.swift in Sources */,
 				E379083B2929E9FA004DF0DF /* HomeViewController.swift in Sources */,
 				E335730D2A20CC1A00B48940 /* BaseNavigationController.swift in Sources */,
@@ -895,6 +966,7 @@
 				E36C6BE92A287F00009BC3CC /* NotificationViewController.swift in Sources */,
 				E3784FD32A1C679B00E4BFD7 /* UIScrollViewViewController2.swift in Sources */,
 				E33572D02A20A1E900B48940 /* SeniorViewController.swift in Sources */,
+				E36C6C272A53A94D009BC3CC /* Deal.swift in Sources */,
 				E3A84B822A1E4BD30013B180 /* UICollectionViewCustomLayoutViewController.swift in Sources */,
 				E3784FC32A1BB21E00E4BFD7 /* UIPageControlViewController.swift in Sources */,
 				E3784FDA2A1C885700E4BFD7 /* UIStackViewViewController.swift in Sources */,
@@ -925,9 +997,13 @@
 				E36C6BD52A21B7FA009BC3CC /* UIScreenEdgePanGestureRecognizerViewController.swift in Sources */,
 				E3784FB92A1B526B00E4BFD7 /* UISearchBarViewController.swift in Sources */,
 				E3955AB52931F2390041D4F7 /* UITextFieldController.swift in Sources */,
+				E36C6C202A539CD1009BC3CC /* BannerView.swift in Sources */,
 				E33573212A211F0700B48940 /* OCViewController.m in Sources */,
 				E3784FE02A1C89D200E4BFD7 /* UIDatePickerViewController.swift in Sources */,
 				E36C6C072A4EAAF9009BC3CC /* Toast.swift in Sources */,
+				E36C6C1B2A52A76D009BC3CC /* SCNetworkReachabilityCreateWithAddressViewController.swift in Sources */,
+				E36C6C182A51AEAC009BC3CC /* DispatchGroupViewController.swift in Sources */,
+				E36C6C1E2A539C11009BC3CC /* UICollectionViewCustomBannerViewController.swift in Sources */,
 				E3784FCE2A1C3EBF00E4BFD7 /* UIActionSheetViewController.swift in Sources */,
 				E3784FD62A1C86C500E4BFD7 /* UITabBarControllerViewController.swift in Sources */,
 				E3784FBE2A1B6D9D00E4BFD7 /* UISwitchViewController.swift in Sources */,

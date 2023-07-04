@@ -55,6 +55,7 @@ class HomeViewController: BaseViewController {
         CommonCellModel(title: "UICollectionViewFlowLayout-瀑布流视图", commonCellFlag: "collectionViewFlowLayoutCell"),
         CommonCellModel(title: "UICollectionViewFlowLayout-设置cell大小", commonCellFlag: "collectionViewFlowLayoutCell2"),
         CommonCellModel(title: "UICollectionView-自定义布局", commonCellFlag: "collectionViewCustomLayoutCell"),
+        CommonCellModel(title: "UICollectionView-自定义轮播", commonCellFlag: "collectionViewCustomBannerCell"),
         
         CommonCellModel(title: "UIStackView-栈视图", commonCellFlag: "stackViewCell"),
         CommonCellModel(title: "UINavigationController-导航控制器", commonCellFlag: "navigationCell"),
@@ -187,6 +188,9 @@ class HomeViewController: BaseViewController {
             targetVC = UICollectionViewFlowLayoutViewController2()
         case "collectionViewCustomLayoutCell":
             targetVC = UICollectionViewCustomLayoutViewController()
+        case "collectionViewCustomBannerCell":
+            targetVC = UICollectionViewCustomBannerViewController()
+            
             
         case "stackViewCell":
             targetVC = UIStackViewViewController()

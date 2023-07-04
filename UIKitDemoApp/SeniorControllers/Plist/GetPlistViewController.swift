@@ -96,6 +96,9 @@ class GetPlistViewController: BaseViewController {
     }
     
     // 方式三：
+    // 参考：
+    //    https://juejin.cn/post/6844903670417457166
+    //    https://developer.apple.com/documentation/foundation/propertylistserialization
     func method3() throws {
         // 生成文件的存储路径, plist
         let plistPath = Bundle.main.url(forResource: "Property List", withExtension: "plist")
