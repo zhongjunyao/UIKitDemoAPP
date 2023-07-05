@@ -9,6 +9,7 @@ import UIKit
 
 class CommonTabBar: UITabBarController {
     
+    
     var items: [CommonTabBarItemModel]! = [] {
         didSet {
             // 设置 Tab bar 的项
@@ -56,10 +57,19 @@ class CommonTabBar: UITabBarController {
         
         // 设置代理
         delegate = self
+        
+        // 设置 accessibility
+        tabBar.accessibilityIdentifier = Accessibility.identifier
     }
     
 }
 
 extension CommonTabBar: UITabBarControllerDelegate {
     // no op
+}
+
+extension CommonTabBar {
+    enum Accessibility {
+        static let identifier = "CommonTabBar"
+    }
 }
