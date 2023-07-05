@@ -19,7 +19,6 @@
 		E33573212A211F0700B48940 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E335731E2A211F0700B48940 /* OCViewController.m */; };
 		E36C6B7E2A2190E1009BC3CC /* UIKitDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B7D2A2190E1009BC3CC /* UIKitDemoAppTests.swift */; };
 		E36C6B8B2A2190E8009BC3CC /* UIKitDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B8A2A2190E8009BC3CC /* UIKitDemoAppUITests.swift */; };
-		E36C6B8D2A2190E8009BC3CC /* UIKitDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B8C2A2190E8009BC3CC /* UIKitDemoAppUITestsLaunchTests.swift */; };
 		E36C6B952A21A569009BC3CC /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B942A21A569009BC3CC /* UIKitViewController.swift */; };
 		E36C6B972A21A5B1009BC3CC /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B962A21A5B1009BC3CC /* SwiftUIView.swift */; };
 		E36C6BD12A21ABAB009BC3CC /* UIKitThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BD02A21ABAB009BC3CC /* UIKitThirdViewController.swift */; };
@@ -33,7 +32,6 @@
 		E36C6BE92A287F00009BC3CC /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BE82A287F00009BC3CC /* NotificationViewController.swift */; };
 		E36C6BEE2A47E32F009BC3CC /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BED2A47E32F009BC3CC /* LaunchViewController.swift */; };
 		E36C6BF12A480B37009BC3CC /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BF02A480B37009BC3CC /* AccessibilityViewController.swift */; };
-		E36C6BF32A484244009BC3CC /* AccessibilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BF22A484244009BC3CC /* AccessibilityUITests.swift */; };
 		E36C6BFC2A4C79DB009BC3CC /* LocalizableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BFB2A4C79DB009BC3CC /* LocalizableViewController.swift */; };
 		E36C6BFF2A4C7BAA009BC3CC /* LocalizableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6BFE2A4C7BAA009BC3CC /* LocalizableViewController2.swift */; };
 		E36C6C012A4E7AEF009BC3CC /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6C002A4E7AEF009BC3CC /* AutoLayoutViewController.swift */; };
@@ -139,7 +137,6 @@
 		E36C6B7D2A2190E1009BC3CC /* UIKitDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitDemoAppTests.swift; sourceTree = "<group>"; };
 		E36C6B882A2190E7009BC3CC /* UIKitDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36C6B8A2A2190E8009BC3CC /* UIKitDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitDemoAppUITests.swift; sourceTree = "<group>"; };
-		E36C6B8C2A2190E8009BC3CC /* UIKitDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E36C6B942A21A569009BC3CC /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		E36C6B962A21A5B1009BC3CC /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		E36C6BD02A21ABAB009BC3CC /* UIKitThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitThirdViewController.swift; sourceTree = "<group>"; };
@@ -153,7 +150,6 @@
 		E36C6BE82A287F00009BC3CC /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		E36C6BED2A47E32F009BC3CC /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		E36C6BF02A480B37009BC3CC /* AccessibilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
-		E36C6BF22A484244009BC3CC /* AccessibilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityUITests.swift; sourceTree = "<group>"; };
 		E36C6BF92A496E2D009BC3CC /* Main.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Main.xcconfig; sourceTree = "<group>"; };
 		E36C6BFA2A496E8A009BC3CC /* Others.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Others.xcconfig; sourceTree = "<group>"; };
 		E36C6BFB2A4C79DB009BC3CC /* LocalizableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableViewController.swift; sourceTree = "<group>"; };
@@ -328,8 +324,6 @@
 			isa = PBXGroup;
 			children = (
 				E36C6B8A2A2190E8009BC3CC /* UIKitDemoAppUITests.swift */,
-				E36C6B8C2A2190E8009BC3CC /* UIKitDemoAppUITestsLaunchTests.swift */,
-				E36C6BF52A48425C009BC3CC /* SeniorControllers */,
 			);
 			path = UIKitDemoAppUITests;
 			sourceTree = "<group>";
@@ -410,22 +404,6 @@
 			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
-		E36C6BF42A484255009BC3CC /* Accessibility */ = {
-			isa = PBXGroup;
-			children = (
-				E36C6BF22A484244009BC3CC /* AccessibilityUITests.swift */,
-			);
-			path = Accessibility;
-			sourceTree = "<group>";
-		};
-		E36C6BF52A48425C009BC3CC /* SeniorControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E36C6BF42A484255009BC3CC /* Accessibility */,
-			);
-			path = SeniorControllers;
-			sourceTree = "<group>";
-		};
 		E36C6BF82A496D9F009BC3CC /* Xconfig */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,13 +460,6 @@
 				E36C6C132A5180A7009BC3CC /* SwiftLanguageViewController.swift */,
 			);
 			path = SwiftLanguage;
-			sourceTree = "<group>";
-		};
-		E36C6C162A51816C009BC3CC /* SwiftLanguageControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SwiftLanguageControllers;
 			sourceTree = "<group>";
 		};
 		E36C6C192A51AEB3009BC3CC /* Dispatch */ = {
@@ -657,7 +628,6 @@
 				E3784FA22A1AF7E500E4BFD7 /* Components */,
 				E3955AB8293224800041D4F7 /* HomeControllers */,
 				E33572D12A20A1ED00B48940 /* SeniorControllers */,
-				E36C6C162A51816C009BC3CC /* SwiftLanguageControllers */,
 				E3784F9F2A1AF59200E4BFD7 /* Home */,
 				E33572CE2A20A1D200B48940 /* Senior */,
 				E36C6C152A5180AF009BC3CC /* SwiftLanguage */,
@@ -923,8 +893,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36C6BF32A484244009BC3CC /* AccessibilityUITests.swift in Sources */,
-				E36C6B8D2A2190E8009BC3CC /* UIKitDemoAppUITestsLaunchTests.swift in Sources */,
 				E36C6B8B2A2190E8009BC3CC /* UIKitDemoAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
