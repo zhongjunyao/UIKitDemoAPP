@@ -12,6 +12,7 @@ import XCTest
 final class UIKitDemoAppUITests: BaseUITestCase {
     
     func testLoginJourney() throws {
+        launchAPP()
         // UI测试时，经常需要使用到指定元素，这时用到了一个类 XCUIElementQuery 的脚本方法，脚本的subscript支持的key值类型如下：
         // identifier, title, label, value, or placeholderValue.
         // 这里的演示代码只使用title，label和identifier

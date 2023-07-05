@@ -1,0 +1,46 @@
+{
+  "configurations" : [
+    {
+      "id" : "5069E499-9086-4F55-8A63-574D6B26C608",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:UIKitDemoApp.xcodeproj",
+          "identifier" : "E37908322929E9FA004DF0DF",
+          "name" : "UIKitDemoApp"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:UIKitDemoApp.xcodeproj",
+      "identifier" : "E37908322929E9FA004DF0DF",
+      "name" : "UIKitDemoApp"
+    },
+    "uiTestingScreenshotsLifetime" : "keepAlways",
+    "userAttachmentLifetime" : "keepAlways"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:UIKitDemoApp.xcodeproj",
+        "identifier" : "E36C6B7A2A2190E1009BC3CC",
+        "name" : "UIKitDemoAppTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:UIKitDemoApp.xcodeproj",
+        "identifier" : "E36C6B872A2190E7009BC3CC",
+        "name" : "UIKitDemoAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
