@@ -49,6 +49,6 @@ class SCNetworkReachabilityCreateWithAddressViewController: BaseViewController {
     }
     
     func doAction(){
-        kSCNetworkFlagsReachable
+//        kSCNetworkFlagsReachable
     }
 }
