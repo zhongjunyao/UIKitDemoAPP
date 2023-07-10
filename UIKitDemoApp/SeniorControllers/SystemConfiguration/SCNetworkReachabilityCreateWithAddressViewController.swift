@@ -11,7 +11,7 @@ import SnapKit
 
 class SCNetworkReachabilityCreateWithAddressViewController: BaseViewController {
     lazy var button1: UIButton = {
-        return makeButton(title:"notify(依赖任务)", actionName: "doAction1")
+        return makeButton(title:"notify(依赖任务)", actionName: "doAction")
     }()
     
     lazy var vStack: UIStackView = {
@@ -48,7 +48,7 @@ class SCNetworkReachabilityCreateWithAddressViewController: BaseViewController {
         }
     }
     
-    func doAction(){
+    @objc func doAction(){
 //        kSCNetworkFlagsReachable
     }
 }
