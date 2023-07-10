@@ -17,6 +17,8 @@
 		E335730D2A20CC1A00B48940 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335730C2A20CC1A00B48940 /* BaseNavigationController.swift */; };
 		E33573152A2113CD00B48940 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33573142A2113CD00B48940 /* SwiftViewController.swift */; };
 		E33573212A211F0700B48940 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E335731E2A211F0700B48940 /* OCViewController.m */; };
+		E36BEAB32A57EB8200D27813 /* StringEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BEAB22A57EB8200D27813 /* StringEmojiViewController.swift */; };
+		E36BEAB62A57EF2300D27813 /* RangeOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BEAB52A57EF2300D27813 /* RangeOperatorViewController.swift */; };
 		E36C6B7E2A2190E1009BC3CC /* UIKitDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B7D2A2190E1009BC3CC /* UIKitDemoAppTests.swift */; };
 		E36C6B8B2A2190E8009BC3CC /* UIKitDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B8A2A2190E8009BC3CC /* UIKitDemoAppUITests.swift */; };
 		E36C6B952A21A569009BC3CC /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B942A21A569009BC3CC /* UIKitViewController.swift */; };
@@ -99,6 +101,7 @@
 		E3A84B852A1E669A0013B180 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A84B842A1E669A0013B180 /* DestinationViewController.swift */; };
 		E3A84B882A1F064B0013B180 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A84B872A1F064B0013B180 /* TabOneViewController.swift */; };
 		E3A84B8A2A1F06580013B180 /* TabTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A84B892A1F06580013B180 /* TabTwoViewController.swift */; };
+		E3B266B92A5BDC17009C9C5E /* FlowBranchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B266B82A5BDC17009C9C5E /* FlowBranchViewController.swift */; };
 		E3FBA1DD2A55C49B00FC0638 /* BaseUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FBA1DC2A55C49B00FC0638 /* BaseUITestCase.swift */; };
 /* End PBXBuildFile section */
 
@@ -134,6 +137,8 @@
 		E335731E2A211F0700B48940 /* OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
 		E335731F2A211F0700B48940 /* OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
 		E33573202A211F0700B48940 /* UIKitDemoApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKitDemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		E36BEAB22A57EB8200D27813 /* StringEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEmojiViewController.swift; sourceTree = "<group>"; };
+		E36BEAB52A57EF2300D27813 /* RangeOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperatorViewController.swift; sourceTree = "<group>"; };
 		E36C6B7B2A2190E1009BC3CC /* UIKitDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36C6B7D2A2190E1009BC3CC /* UIKitDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitDemoAppTests.swift; sourceTree = "<group>"; };
 		E36C6B882A2190E7009BC3CC /* UIKitDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,6 +227,7 @@
 		E3A84B842A1E669A0013B180 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		E3A84B872A1F064B0013B180 /* TabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
 		E3A84B892A1F06580013B180 /* TabTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoViewController.swift; sourceTree = "<group>"; };
+		E3B266B82A5BDC17009C9C5E /* FlowBranchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowBranchViewController.swift; sourceTree = "<group>"; };
 		E3FBA1DC2A55C49B00FC0638 /* BaseUITestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUITestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -312,6 +318,16 @@
 				E33573202A211F0700B48940 /* UIKitDemoApp-Bridging-Header.h */,
 			);
 			path = SwiftOCInteraction;
+			sourceTree = "<group>";
+		};
+		E36BEAB42A57EB8A00D27813 /* SwiftControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E36BEAB22A57EB8200D27813 /* StringEmojiViewController.swift */,
+				E36BEAB52A57EF2300D27813 /* RangeOperatorViewController.swift */,
+				E3B266B82A5BDC17009C9C5E /* FlowBranchViewController.swift */,
+			);
+			path = SwiftControllers;
 			sourceTree = "<group>";
 		};
 		E36C6B7C2A2190E1009BC3CC /* UIKitDemoAppTests */ = {
@@ -631,6 +647,7 @@
 				E3784FA22A1AF7E500E4BFD7 /* Components */,
 				E3955AB8293224800041D4F7 /* HomeControllers */,
 				E33572D12A20A1ED00B48940 /* SeniorControllers */,
+				E36BEAB42A57EB8A00D27813 /* SwiftControllers */,
 				E3784F9F2A1AF59200E4BFD7 /* Home */,
 				E33572CE2A20A1D200B48940 /* Senior */,
 				E36C6C152A5180AF009BC3CC /* SwiftLanguage */,
@@ -930,10 +947,13 @@
 				E36C6BFC2A4C79DB009BC3CC /* LocalizableViewController.swift in Sources */,
 				E36C6C092A4F0D4C009BC3CC /* Modal.swift in Sources */,
 				E36C6BDF2A247F32009BC3CC /* CombineViewController.swift in Sources */,
+				E36BEAB32A57EB8200D27813 /* StringEmojiViewController.swift in Sources */,
 				E3A84B8A2A1F06580013B180 /* TabTwoViewController.swift in Sources */,
 				E36C6BD12A21ABAB009BC3CC /* UIKitThirdViewController.swift in Sources */,
+				E36BEAB62A57EF2300D27813 /* RangeOperatorViewController.swift in Sources */,
 				E36C6C292A53A965009BC3CC /* Product.swift in Sources */,
 				E33572D82A20A3D600B48940 /* ReloadOperater.swift in Sources */,
+				E3B266B92A5BDC17009C9C5E /* FlowBranchViewController.swift in Sources */,
 				E379083B2929E9FA004DF0DF /* HomeViewController.swift in Sources */,
 				E335730D2A20CC1A00B48940 /* BaseNavigationController.swift in Sources */,
 				E3784FDE2A1C894E00E4BFD7 /* UIWebViewViewController.swift in Sources */,

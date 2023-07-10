@@ -43,6 +43,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 selectedImage: UIImage(named: "senior_selected"),
                 title: "Senior"
             ),
+            CommonTabBarItemModel(
+                vc: SwiftLanguageViewController(),
+                image: UIImage(named: "swift"),
+                selectedImage: UIImage(named: "swift_selected"),
+                title: "Swift"
+            ),
         ]
         tabBarVC.selectedIndex = 1
         self.window?.rootViewController = tabBarVC

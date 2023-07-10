@@ -13,9 +13,9 @@ class SwiftLanguageViewController: BaseViewController {
     var stackView: UIStackView!
     
     lazy var items: [CommonCellModel] = [
-//        CommonCellModel(title: "重载操作符", commonCellFlag: "cell-1"),
-//        CommonCellModel(title: "Swift与OC交互", commonCellFlag: "cell-2"),
-//        CommonCellModel(title: "UIKit与SwiftUI交互", commonCellFlag: "cell-3"),
+        CommonCellModel(title: "String-特殊字符", commonCellFlag: "stringEmojiCell"),
+        CommonCellModel(title: "Range-操作方法", commonCellFlag: "rangeOperaterCell"),
+        CommonCellModel(title: "流程控制", commonCellFlag: "flowBranchCell"),
 //        CommonCellModel(title: "页面添加侧滑手势", commonCellFlag: "cell-4"),
 //        CommonCellModel(title: "async与await使用", commonCellFlag: "cell-5"),
 //        CommonCellModel(title: "KVO使用", commonCellFlag: "cell-6"),
@@ -123,12 +123,12 @@ class SwiftLanguageViewController: BaseViewController {
         var targetVC: UIViewController? = nil
         
         switch sender.commonCellFlag {
-//        case "cell-1":
-//            targetVC = ReloadOperater()
-//        case "cell-2":
-//            targetVC = SwiftOCInteraction()
-//        case "cell-3":
-//            targetVC = UIKitViewController()
+        case "stringEmojiCell":
+            targetVC = StringEmojiViewController()
+        case "rangeOperaterCell":
+            targetVC = RangeOperatorViewController()
+        case "flowBranchCell":
+            targetVC = FlowBranchViewController()
 //        case "cell-4":
 //            targetVC = UIScreenEdgePanGestureRecognizerViewController()
 //        case "cell-5":
