@@ -16,8 +16,8 @@ class SwiftLanguageViewController: BaseViewController {
         CommonCellModel(title: "String-特殊字符", commonCellFlag: "stringEmojiCell"),
         CommonCellModel(title: "Range-操作方法", commonCellFlag: "rangeOperaterCell"),
         CommonCellModel(title: "流程控制", commonCellFlag: "flowBranchCell"),
-//        CommonCellModel(title: "页面添加侧滑手势", commonCellFlag: "cell-4"),
-//        CommonCellModel(title: "async与await使用", commonCellFlag: "cell-5"),
+        CommonCellModel(title: "获取类型并判断", commonCellFlag: "getTypeCell"),
+        CommonCellModel(title: "Struct使用", commonCellFlag: "structCell"),
 //        CommonCellModel(title: "KVO使用", commonCellFlag: "cell-6"),
 //        CommonCellModel(title: "Combine使用", commonCellFlag: "cell-7"),
 //        CommonCellModel(title: "获取plist文件", commonCellFlag: "cell-8"),
@@ -129,10 +129,10 @@ class SwiftLanguageViewController: BaseViewController {
             targetVC = RangeOperatorViewController()
         case "flowBranchCell":
             targetVC = FlowBranchViewController()
-//        case "cell-4":
-//            targetVC = UIScreenEdgePanGestureRecognizerViewController()
-//        case "cell-5":
-//            targetVC = AsyncAwaitViewController()
+        case "getTypeCell":
+            targetVC = GetTypeAndJudgeViewController()
+        case "structCell":
+            targetVC = StructViewController()
 //        case "cell-6":
 //            targetVC = KVOViewController()
 //        case "cell-7":

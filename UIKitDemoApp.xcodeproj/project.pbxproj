@@ -102,6 +102,8 @@
 		E3A84B882A1F064B0013B180 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A84B872A1F064B0013B180 /* TabOneViewController.swift */; };
 		E3A84B8A2A1F06580013B180 /* TabTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A84B892A1F06580013B180 /* TabTwoViewController.swift */; };
 		E3B266B92A5BDC17009C9C5E /* FlowBranchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B266B82A5BDC17009C9C5E /* FlowBranchViewController.swift */; };
+		E3EF46F72A5E563F006CA7DF /* GetTypeAndJudgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EF46F62A5E563F006CA7DF /* GetTypeAndJudgeViewController.swift */; };
+		E3EF46F92A5E6710006CA7DF /* StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EF46F82A5E6710006CA7DF /* StructViewController.swift */; };
 		E3FBA1DD2A55C49B00FC0638 /* BaseUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FBA1DC2A55C49B00FC0638 /* BaseUITestCase.swift */; };
 /* End PBXBuildFile section */
 
@@ -228,6 +230,8 @@
 		E3A84B872A1F064B0013B180 /* TabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
 		E3A84B892A1F06580013B180 /* TabTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoViewController.swift; sourceTree = "<group>"; };
 		E3B266B82A5BDC17009C9C5E /* FlowBranchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowBranchViewController.swift; sourceTree = "<group>"; };
+		E3EF46F62A5E563F006CA7DF /* GetTypeAndJudgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTypeAndJudgeViewController.swift; sourceTree = "<group>"; };
+		E3EF46F82A5E6710006CA7DF /* StructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructViewController.swift; sourceTree = "<group>"; };
 		E3FBA1DC2A55C49B00FC0638 /* BaseUITestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUITestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -326,6 +330,8 @@
 				E36BEAB22A57EB8200D27813 /* StringEmojiViewController.swift */,
 				E36BEAB52A57EF2300D27813 /* RangeOperatorViewController.swift */,
 				E3B266B82A5BDC17009C9C5E /* FlowBranchViewController.swift */,
+				E3EF46F62A5E563F006CA7DF /* GetTypeAndJudgeViewController.swift */,
+				E3EF46F82A5E6710006CA7DF /* StructViewController.swift */,
 			);
 			path = SwiftControllers;
 			sourceTree = "<group>";
@@ -933,6 +939,7 @@
 				E36C6C142A5180A7009BC3CC /* SwiftLanguageViewController.swift in Sources */,
 				E3784FD82A1C87A400E4BFD7 /* UINavigationControllerViewController.swift in Sources */,
 				E3784FCC2A1BC4BC00E4BFD7 /* UIAlertViewViewController.swift in Sources */,
+				E3EF46F72A5E563F006CA7DF /* GetTypeAndJudgeViewController.swift in Sources */,
 				E36C6C0E2A4F3FB3009BC3CC /* AnimationViewController.swift in Sources */,
 				E36C6BD32A21B698009BC3CC /* AsyncAwaitViewController.swift in Sources */,
 				E3784FE92A1CADAB00E4BFD7 /* UITableViewGroupedViewController.swift in Sources */,
@@ -989,6 +996,7 @@
 				E3A84B852A1E669A0013B180 /* DestinationViewController.swift in Sources */,
 				E33572D42A20A25A00B48940 /* CommonCellModel.swift in Sources */,
 				E36C6C012A4E7AEF009BC3CC /* AutoLayoutViewController.swift in Sources */,
+				E3EF46F92A5E6710006CA7DF /* StructViewController.swift in Sources */,
 				E36C6C042A4EA9D3009BC3CC /* SearchClassOrSelectorByStringViewController.swift in Sources */,
 				E37908372929E9FA004DF0DF /* AppDelegate.swift in Sources */,
 				E3784FAC2A1AF93100E4BFD7 /* BaseViewController.swift in Sources */,
