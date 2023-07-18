@@ -65,7 +65,8 @@ class UITextFieldController : BaseViewController, UITextFieldDelegate {
     
     // 当输入改变时调用的方法
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        print("\(range)==>\(string)")
+        print("textField.text==>", textField.text)
+        print("range.location: \(range.location), range.length:\(range.length)==>\(string)")
         return true
     }
     // textField 已经进入编辑状态时调用的方法
@@ -91,8 +92,11 @@ class UITextFieldController : BaseViewController, UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
+
+    
     // 点击屏幕退出编辑
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         textField.resignFirstResponder()
     }
+    
 }
