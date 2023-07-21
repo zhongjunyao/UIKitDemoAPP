@@ -19,6 +19,9 @@ class UILabelViewController: BaseViewController {
         label.text = "I am a label"
         // 字体
         label.font = UIFont.boldSystemFont(ofSize: 25)
+//        // 字体行间距，因为iphone可调节字体大小所以一般不设置行高
+//        label.lineSpacing = 1.4
+        
         // 字体颜色
         label.textColor = UIColor.red
         // 背景色

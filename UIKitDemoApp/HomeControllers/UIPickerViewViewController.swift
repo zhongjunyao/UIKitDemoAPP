@@ -92,7 +92,7 @@ extension UIPickerViewViewController: UIPickerViewDelegate {
         let attributes: [NSAttributedString.Key : Any]? = [
             .strokeWidth: 2,
             .strokeColor: UIColor.orange.cgColor,
-            .font: UIFont.systemFont(ofSize: 25, weight: .bold)
+            .font: UIFont.systemFont(ofSize: 25, weight: .bold),
         ]
         
         return NSAttributedString(string: dataArray[row], attributes: attributes)
