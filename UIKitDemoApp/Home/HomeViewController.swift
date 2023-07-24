@@ -43,7 +43,9 @@ class HomeViewController: BaseViewController {
         CommonCellModel(title: "UITableView-表格视图-头部尾部其他", commonCellFlag: "tableViewHeaderAndFooterCell"),
         CommonCellModel(title: "UITableView-表格视图-编辑", commonCellFlag: "tableViewEditingCell"),
         CommonCellModel(title: "UITableView-表格视图-移动", commonCellFlag: "tableViewMovingCell"),
-
+        CommonCellModel(title: "UITableView-无序列表-失败", commonCellFlag: "unorderListCell"),
+        CommonCellModel(title: "UITableView-无序列表2", commonCellFlag: "unorderListCell2"),
+        
         
         CommonCellModel(title: "UITextView-文本视图", commonCellFlag: "textViewCell"),
         CommonCellModel(title: "UIPickerView-选择器视图", commonCellFlag: "pickerViewCell"),
@@ -170,6 +172,10 @@ class HomeViewController: BaseViewController {
             targetVC = UITableViewEditingViewController()
         case "tableViewMovingCell":
             targetVC = UITableViewMovingViewController()
+        case "unorderListCell":
+            targetVC = UnorderListViewController()
+        case "unorderListCell2":
+            targetVC = UnorderListViewController2()
             
         case "textViewCell":
             targetVC = UITextViewViewController()

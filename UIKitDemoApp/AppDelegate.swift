@@ -50,7 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 title: "Swift"
             ),
         ]
-        tabBarVC.selectedIndex = 1
+        tabBarVC.selectedIndex = 0
         self.window?.rootViewController = tabBarVC
         self.window?.makeKeyAndVisible()
     }
