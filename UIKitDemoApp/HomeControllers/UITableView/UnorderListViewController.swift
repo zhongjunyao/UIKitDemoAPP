@@ -63,11 +63,11 @@ class UnorderListCell: UITableViewCell {
             
             
             labelView.leadingAnchor.constraint(equalTo: dotView.trailingAnchor, constant: 10),
-            labelView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 20),
+            labelView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),
             labelView.topAnchor.constraint(equalTo: dotView.topAnchor),
 //            labelView.bottomAnchor.constraint(equalTo: bottomAnchor),
 //            labelView.centerYAnchor.constraint(equalTo: centerYAnchor),
-//            labelView.heightAnchor.constraint(equalToConstant: 30),
+            labelView.heightAnchor.constraint(greaterThanOrEqualToConstant: 30),
             
 //            contentView.heightAnchor.constraint(equalToConstant: 50)
         ])
@@ -114,8 +114,8 @@ class UnorderListViewController: BaseViewController {
         view.addSubview(tableView)
         // 自适应高度
         // 1.任意给定一个高度
-        tableView.estimatedRowHeight = 10
-        tableView.rowHeight = UITableView.automaticDimension  //重点
+//        tableView.estimatedRowHeight = 10
+//        tableView.rowHeight = UITableView.automaticDimension  //重点
 
         // 2.创建自定义Cell并为子控件设置合适的约束.
         tableView.register(UnorderListCell.self, forCellReuseIdentifier: UnorderListCell.reuseIdentifier)
@@ -140,7 +140,7 @@ extension UnorderListViewController: UITableViewDataSource {
 //    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 //        return UITableView.automaticDimension
 //    }
-//
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return orderList.count
     }
