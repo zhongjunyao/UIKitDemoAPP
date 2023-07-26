@@ -22,6 +22,7 @@ class SeniorViewController: BaseViewController {
         CommonCellModel(title: "获取plist文件", commonCellFlag: "cell-8"),
         CommonCellModel(title: "Accessibility的使用", commonCellFlag: "cell-9"),
         CommonCellModel(title: "国际化-iOS自带方式", commonCellFlag: "cell-10"),
+        CommonCellModel(title: "国际化-iOS自带方式-2", commonCellFlag: "cell-10-2"),
         CommonCellModel(title: "国际化-拓展iOS自带方式", commonCellFlag: "cell-11"),
         CommonCellModel(title: "纯原生代码实现的自动布局", commonCellFlag: "cell-12"),
         CommonCellModel(title: "通过字符串查找Class或者Selector", commonCellFlag: "cell-13"),
@@ -143,6 +144,8 @@ class SeniorViewController: BaseViewController {
             targetVC = AccessibilityViewController()
         case "cell-10":
             targetVC = LocalizableViewController()
+        case "cell-10-2":
+            targetVC = LocalizableViewControllerV2()
         case "cell-11":
             targetVC = LocalizableViewController2()
         case "cell-12":
