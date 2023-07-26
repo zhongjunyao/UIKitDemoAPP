@@ -44,6 +44,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 title: "Senior"
             ),
             CommonTabBarItemModel(
+                vc: StyleViewController(),
+                image: UIImage(named: "style"),
+                selectedImage: UIImage(named: "style_selected"),
+                title: "Style"
+            ),
+            CommonTabBarItemModel(
                 vc: SwiftLanguageViewController(),
                 image: UIImage(named: "swift"),
                 selectedImage: UIImage(named: "swift_selected"),

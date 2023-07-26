@@ -11,7 +11,7 @@ import SnapKit
 
 class SCNetworkReachabilityCreateWithAddressViewController: BaseViewController {
     lazy var button1: UIButton = {
-        return makeButton(title:"notify(依赖任务)", actionName: "doAction")
+        return makeButton(title:"测试连接可行性", actionName: "startConnect")
     }()
     
     lazy var vStack: UIStackView = {
@@ -33,7 +33,7 @@ class SCNetworkReachabilityCreateWithAddressViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Network-连接"
+        title = "Network-可连接性检查"
         
         setupUI()
     }
@@ -48,7 +48,38 @@ class SCNetworkReachabilityCreateWithAddressViewController: BaseViewController {
         }
     }
     
-    @objc func doAction(){
-//        kSCNetworkFlagsReachable
+    @objc func startConnect(){
+        if (!self.connectedToNetwork()) {
+            let alert: UIAlertView = UIAlertView(title: "Network Connection Error", message: "You need to be connected to the internet to use this feature.", delegate: nil, cancelButtonTitle: "OK")
+            alert.show()
+        } else {
+            let alert: UIAlertView = UIAlertView(title: "Network Connection Success", message: "Congratulations !", delegate: nil, cancelButtonTitle: "OK")
+            alert.show()
+        }
+    }
+    
+    func connectedToNetwork() -> Bool {
+        // Create zero addy
+        var zeroAddress = sockaddr()
+        zeroAddress.sa_len = UInt8(MemoryLayout<sockaddr>.size(ofValue: zeroAddress)) // UInt8(MemoryLayout<sockaddr>.size);
+        zeroAddress.sa_family = UInt8(AF_INET);
+
+        // Recover reachability flags
+        guard let defaultRouteReachability: SCNetworkReachability = SCNetworkReachabilityCreateWithAddress(nil, &zeroAddress) else {
+            return false
+        }
+        
+        var flags = SCNetworkReachabilityFlags()
+
+        let didRetrieveFlags = SCNetworkReachabilityGetFlags(defaultRouteReachability, &flags)
+        
+        if !didRetrieveFlags {
+            return false
+        }
+        
+        let isReachable = flags.contains(.reachable)
+        let needsConnection = flags.contains(.connectionRequired)
+        
+        return (isReachable && !needsConnection)
     }
 }

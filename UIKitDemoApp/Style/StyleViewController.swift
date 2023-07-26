@@ -1,34 +1,35 @@
 //
-//  SeniorViewController.swift
+//  StyleViewController.swift
 //  UIKitDemoApp
 //
-//  Created by ROBIN.J.Y.ZHONG on 2023/5/26.
+//  Created by ROBIN.J.Y.ZHONG on 2023/7/26.
 //
 
 import UIKit
 
-class SeniorViewController: BaseViewController {
+class StyleViewController: BaseViewController {
+    
     var scrollView: UIScrollView!
     var stackView: UIStackView!
     
     lazy var items: [CommonCellModel] = [
-        CommonCellModel(title: "重载操作符", commonCellFlag: "cell-1"),
-        CommonCellModel(title: "Swift与OC交互", commonCellFlag: "cell-2"),
-        CommonCellModel(title: "UIKit与SwiftUI交互", commonCellFlag: "cell-3"),
-        CommonCellModel(title: "页面添加侧滑手势", commonCellFlag: "cell-4"),
-        CommonCellModel(title: "async与await使用", commonCellFlag: "cell-5"),
-        CommonCellModel(title: "KVO使用", commonCellFlag: "cell-6"),
-        CommonCellModel(title: "Combine使用", commonCellFlag: "cell-7"),
-        CommonCellModel(title: "获取plist文件", commonCellFlag: "cell-8"),
-        CommonCellModel(title: "Accessibility的使用", commonCellFlag: "cell-9"),
-        CommonCellModel(title: "国际化-iOS自带方式", commonCellFlag: "cell-10"),
-        CommonCellModel(title: "国际化-拓展iOS自带方式", commonCellFlag: "cell-11"),
-        CommonCellModel(title: "纯原生代码实现的自动布局", commonCellFlag: "cell-12"),
-        CommonCellModel(title: "通过字符串查找Class或者Selector", commonCellFlag: "cell-13"),
-        CommonCellModel(title: "简单动画", commonCellFlag: "cell-14"),
-        CommonCellModel(title: "自定义底部弹窗", commonCellFlag: "cell-15"),
-        CommonCellModel(title: "DispatchGroup的用法", commonCellFlag: "cell-16"),
-        CommonCellModel(title: "Network-可连接性检查", commonCellFlag: "cell-17"),
+        CommonCellModel(title: "设置行高", commonCellFlag: "lineHeightCell"),
+//        CommonCellModel(title: "Range-操作方法", commonCellFlag: "rangeOperaterCell"),
+//        CommonCellModel(title: "流程控制", commonCellFlag: "flowBranchCell"),
+//        CommonCellModel(title: "获取类型并判断", commonCellFlag: "getTypeCell"),
+//        CommonCellModel(title: "Struct使用", commonCellFlag: "structCell"),
+//        CommonCellModel(title: "KVO使用", commonCellFlag: "cell-6"),
+//        CommonCellModel(title: "Combine使用", commonCellFlag: "cell-7"),
+//        CommonCellModel(title: "获取plist文件", commonCellFlag: "cell-8"),
+//        CommonCellModel(title: "Accessibility的使用", commonCellFlag: "cell-9"),
+//        CommonCellModel(title: "国际化-iOS自带方式", commonCellFlag: "cell-10"),
+//        CommonCellModel(title: "国际化-拓展iOS自带方式", commonCellFlag: "cell-11"),
+//        CommonCellModel(title: "纯原生代码实现的自动布局", commonCellFlag: "cell-12"),
+//        CommonCellModel(title: "通过字符串查找Class或者Selector", commonCellFlag: "cell-13"),
+//        CommonCellModel(title: "简单动画", commonCellFlag: "cell-14"),
+//        CommonCellModel(title: "自定义底部弹窗", commonCellFlag: "cell-15"),
+//        CommonCellModel(title: "消息通知-Notification", commonCellFlag: "cell-16"),
+//        CommonCellModel(title: "UIPageControl-分页控制器", commonCellFlag: "pageControlCell"),
 //        CommonCellModel(title: "UIStepperView-步进控制器", commonCellFlag: "stepperCell"),
 //
 //        CommonCellModel(title: "UIAlertView-警告框", commonCellFlag: "alertCell"),
@@ -74,9 +75,8 @@ class SeniorViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Senior-功能页"
-        
-        print("featureConfig==>", featureConfig[0], featureConfig[1])
+        navigationItem.title = "Swift-语法页"
+        let dispatchGroup = DispatchGroup()
         setupViews()
     }
     
@@ -123,40 +123,40 @@ class SeniorViewController: BaseViewController {
         var targetVC: UIViewController? = nil
         
         switch sender.commonCellFlag {
-        case "cell-1":
-            targetVC = ReloadOperater()
-        case "cell-2":
-            targetVC = SwiftOCInteraction()
-        case "cell-3":
-            targetVC = UIKitViewController()
-        case "cell-4":
-            targetVC = UIScreenEdgePanGestureRecognizerViewController()
-        case "cell-5":
-            targetVC = AsyncAwaitViewController()
-        case "cell-6":
-            targetVC = KVOViewController()
-        case "cell-7":
-            targetVC = CombineViewController()
-        case "cell-8":
-            targetVC = GetPlistViewController()
-        case "cell-9":
-            targetVC = AccessibilityViewController()
-        case "cell-10":
-            targetVC = LocalizableViewController()
-        case "cell-11":
-            targetVC = LocalizableViewController2()
-        case "cell-12":
-            targetVC = AutoLayoutViewController()
-        case "cell-13":
-            targetVC = SearchClassOrSelectorByStringViewController()
-        case "cell-14":
-            targetVC = AnimationViewController()
-        case "cell-15":
-            targetVC = CustomModalViewController()
-        case "cell-16":
-            targetVC = DispatchGroupViewController()
-        case "cell-17":
-            targetVC = SCNetworkReachabilityCreateWithAddressViewController()
+        case "lineHeightCell":
+            targetVC = LineHeightViewController()
+//        case "rangeOperaterCell":
+//            targetVC = RangeOperatorViewController()
+//        case "flowBranchCell":
+//            targetVC = FlowBranchViewController()
+//        case "getTypeCell":
+//            targetVC = GetTypeAndJudgeViewController()
+//        case "structCell":
+            targetVC = StructViewController()
+//        case "cell-6":
+//            targetVC = KVOViewController()
+//        case "cell-7":
+//            targetVC = CombineViewController()
+//        case "cell-8":
+//            targetVC = GetPlistViewController()
+//        case "cell-9":
+//            targetVC = AccessibilityViewController()
+//        case "cell-10":
+//            targetVC = LocalizableViewController()
+//        case "cell-11":
+//            targetVC = LocalizableViewController2()
+//        case "cell-12":
+//            targetVC = AutoLayoutViewController()
+//        case "cell-13":
+//            targetVC = SearchClassOrSelectorByStringViewController()
+//        case "cell-14":
+//            targetVC = AnimationViewController()
+//        case "cell-15":
+//            targetVC = CustomModalViewController()
+//        case "cell-16":
+//            targetVC = NotificationViewController()
+//        case "alertCell":
+//            targetVC = UIAlertViewViewController()
 //        case "alertCell2":
 //            targetVC = UIAlertControllerViewController()
 //        case "actionSheetCell":
@@ -217,5 +217,5 @@ class SeniorViewController: BaseViewController {
         // 返回页面恢复 tabBar
         hidesBottomBarWhenPushed = false
     }
-    
+
 }

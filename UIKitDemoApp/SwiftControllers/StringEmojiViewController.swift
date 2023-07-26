@@ -35,6 +35,13 @@ class StringEmojiViewController: BaseViewController {
         
         let newStr = "|1|----"
         debugPrint("substring=====>", newStr.substring(from: newStr.index(newStr.startIndex, offsetBy: 3)))
+        debugPrint("newStr===>", newStr)
+        let newIdx = newStr.index(newStr.startIndex, offsetBy: 3)
+        debugPrint("substring=====>", newStr[newIdx...])
+        let newStr2 = "|1|"
+        debugPrint("newStr===>", newStr2)
+        let newIdx2 = newStr.index(newStr2.startIndex, offsetBy: 3)
+        debugPrint("substring=====>", newStr2[newIdx2...])
     }
 }
 

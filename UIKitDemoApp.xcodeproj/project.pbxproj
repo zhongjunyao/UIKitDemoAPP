@@ -17,6 +17,12 @@
 		E335730D2A20CC1A00B48940 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335730C2A20CC1A00B48940 /* BaseNavigationController.swift */; };
 		E33573152A2113CD00B48940 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33573142A2113CD00B48940 /* SwiftViewController.swift */; };
 		E33573212A211F0700B48940 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E335731E2A211F0700B48940 /* OCViewController.m */; };
+		E35AF44A2A70A9A3009E510D /* StyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4492A70A9A3009E510D /* StyleViewController.swift */; };
+		E35AF44D2A70AA13009E510D /* LineHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF44C2A70AA13009E510D /* LineHeightViewController.swift */; };
+		E35AF4512A70BEAF009E510D /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4502A70BEAF009E510D /* RadioButton.swift */; };
+		E35AF4532A70C124009E510D /* RadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4522A70C124009E510D /* RadioGroup.swift */; };
+		E35AF4552A70C2BD009E510D /* LocalizableViewController+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4542A70C2BD009E510D /* LocalizableViewController+Style.swift */; };
+		E35AF4572A70CE4A009E510D /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4562A70CE4A009E510D /* Language.swift */; };
 		E36BEAB32A57EB8200D27813 /* StringEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BEAB22A57EB8200D27813 /* StringEmojiViewController.swift */; };
 		E36BEAB62A57EF2300D27813 /* RangeOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BEAB52A57EF2300D27813 /* RangeOperatorViewController.swift */; };
 		E36C6B7E2A2190E1009BC3CC /* UIKitDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B7D2A2190E1009BC3CC /* UIKitDemoAppTests.swift */; };
@@ -142,6 +148,12 @@
 		E335731E2A211F0700B48940 /* OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
 		E335731F2A211F0700B48940 /* OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
 		E33573202A211F0700B48940 /* UIKitDemoApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKitDemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		E35AF4492A70A9A3009E510D /* StyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleViewController.swift; sourceTree = "<group>"; };
+		E35AF44C2A70AA13009E510D /* LineHeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineHeightViewController.swift; sourceTree = "<group>"; };
+		E35AF4502A70BEAF009E510D /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		E35AF4522A70C124009E510D /* RadioGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioGroup.swift; sourceTree = "<group>"; };
+		E35AF4542A70C2BD009E510D /* LocalizableViewController+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizableViewController+Style.swift"; sourceTree = "<group>"; };
+		E35AF4562A70CE4A009E510D /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		E36BEAB22A57EB8200D27813 /* StringEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEmojiViewController.swift; sourceTree = "<group>"; };
 		E36BEAB52A57EF2300D27813 /* RangeOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperatorViewController.swift; sourceTree = "<group>"; };
 		E36C6B7B2A2190E1009BC3CC /* UIKitDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -330,6 +342,34 @@
 			path = SwiftOCInteraction;
 			sourceTree = "<group>";
 		};
+		E35AF44B2A70A9B0009E510D /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF4492A70A9A3009E510D /* StyleViewController.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		E35AF44E2A70AA20009E510D /* StyleControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF44C2A70AA13009E510D /* LineHeightViewController.swift */,
+			);
+			path = StyleControllers;
+			sourceTree = "<group>";
+		};
+		E35AF44F2A70BE80009E510D /* LocalizableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E36C6BFB2A4C79DB009BC3CC /* LocalizableViewController.swift */,
+				E35AF4542A70C2BD009E510D /* LocalizableViewController+Style.swift */,
+				E35AF4502A70BEAF009E510D /* RadioButton.swift */,
+				E35AF4522A70C124009E510D /* RadioGroup.swift */,
+				E35AF4562A70CE4A009E510D /* Language.swift */,
+			);
+			path = LocalizableViewController;
+			sourceTree = "<group>";
+		};
 		E36BEAB42A57EB8A00D27813 /* SwiftControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -447,7 +487,7 @@
 		E36C6BFD2A4C79DF009BC3CC /* Localizable */ = {
 			isa = PBXGroup;
 			children = (
-				E36C6BFB2A4C79DB009BC3CC /* LocalizableViewController.swift */,
+				E35AF44F2A70BE80009E510D /* LocalizableViewController */,
 				E36C6BFE2A4C7BAA009BC3CC /* LocalizableViewController2.swift */,
 			);
 			path = Localizable;
@@ -661,9 +701,11 @@
 				E3784FA22A1AF7E500E4BFD7 /* Components */,
 				E3955AB8293224800041D4F7 /* HomeControllers */,
 				E33572D12A20A1ED00B48940 /* SeniorControllers */,
+				E35AF44E2A70AA20009E510D /* StyleControllers */,
 				E36BEAB42A57EB8A00D27813 /* SwiftControllers */,
 				E3784F9F2A1AF59200E4BFD7 /* Home */,
 				E33572CE2A20A1D200B48940 /* Senior */,
+				E35AF44B2A70A9B0009E510D /* Style */,
 				E36C6C152A5180AF009BC3CC /* SwiftLanguage */,
 				E37908362929E9FA004DF0DF /* AppDelegate.swift */,
 				E379083F2929E9FC004DF0DF /* Assets.xcassets */,
@@ -967,6 +1009,7 @@
 				E36BEAB32A57EB8200D27813 /* StringEmojiViewController.swift in Sources */,
 				E3A84B8A2A1F06580013B180 /* TabTwoViewController.swift in Sources */,
 				E36C6BD12A21ABAB009BC3CC /* UIKitThirdViewController.swift in Sources */,
+				E35AF4572A70CE4A009E510D /* Language.swift in Sources */,
 				E36BEAB62A57EF2300D27813 /* RangeOperatorViewController.swift in Sources */,
 				E36C6C292A53A965009BC3CC /* Product.swift in Sources */,
 				E33572D82A20A3D600B48940 /* ReloadOperater.swift in Sources */,
@@ -976,8 +1019,10 @@
 				E3784FDE2A1C894E00E4BFD7 /* UIWebViewViewController.swift in Sources */,
 				E3784FEF2A1CE05000E4BFD7 /* UITableViewMovingViewController.swift in Sources */,
 				E36C6BD92A22E6F7009BC3CC /* KVOViewController.swift in Sources */,
+				E35AF4532A70C124009E510D /* RadioGroup.swift in Sources */,
 				E33572DA2A20BE1A00B48940 /* SwiftOCInteraction.swift in Sources */,
 				E36C6B972A21A5B1009BC3CC /* SwiftUIView.swift in Sources */,
+				E35AF4552A70C2BD009E510D /* LocalizableViewController+Style.swift in Sources */,
 				E3784FA92A1AF8BC00E4BFD7 /* UIColorExtension.swift in Sources */,
 				E3784FA42A1AF7F800E4BFD7 /* CommonCell.swift in Sources */,
 				E36C6BE92A287F00009BC3CC /* NotificationViewController.swift in Sources */,
@@ -1026,16 +1071,19 @@
 				E3784FCE2A1C3EBF00E4BFD7 /* UIActionSheetViewController.swift in Sources */,
 				E3784FD62A1C86C500E4BFD7 /* UITabBarControllerViewController.swift in Sources */,
 				E3784FBE2A1B6D9D00E4BFD7 /* UISwitchViewController.swift in Sources */,
+				E35AF44D2A70AA13009E510D /* LineHeightViewController.swift in Sources */,
 				E36C6BFF2A4C7BAA009BC3CC /* LocalizableViewController2.swift in Sources */,
 				E3784FBC2A1B5BC800E4BFD7 /* UISearchBarViewController2.swift in Sources */,
 				E3955AB7293224620041D4F7 /* UISliderViewController.swift in Sources */,
 				E3784FE22A1C8A0700E4BFD7 /* UIPickerViewViewController.swift in Sources */,
 				E371993029337D6700DFFB90 /* UIProgressViewController.swift in Sources */,
 				E371992E29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift in Sources */,
+				E35AF4512A70BEAF009E510D /* RadioButton.swift in Sources */,
 				E33573152A2113CD00B48940 /* SwiftViewController.swift in Sources */,
 				E33572D62A20A28A00B48940 /* CommonTabBarItemModel.swift in Sources */,
 				E3784FB22A1B38E500E4BFD7 /* UIButtonViewController.swift in Sources */,
 				E3784FA72A1AF8B300E4BFD7 /* UIApplicationExtension.swift in Sources */,
+				E35AF44A2A70A9A3009E510D /* StyleViewController.swift in Sources */,
 				E3DEA8372A6ECE8E009EBCB1 /* UnorderListViewController2.swift in Sources */,
 				E33572CC2A2097E500B48940 /* CommonTabBar.swift in Sources */,
 				E3784FB72A1B4A7600E4BFD7 /* UIImageViewController2.swift in Sources */,
