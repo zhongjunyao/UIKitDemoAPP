@@ -13,8 +13,8 @@ class StyleViewController: BaseViewController {
     var stackView: UIStackView!
     
     lazy var items: [CommonCellModel] = [
-        CommonCellModel(title: "设置行高", commonCellFlag: "lineHeightCell"),
-//        CommonCellModel(title: "Range-操作方法", commonCellFlag: "rangeOperaterCell"),
+        CommonCellModel(title: "兼容AOS的行高方案", commonCellFlag: "lineHeightCell"),
+        CommonCellModel(title: "VIPER 案例", commonCellFlag: "viperStudyCell"),
 //        CommonCellModel(title: "流程控制", commonCellFlag: "flowBranchCell"),
 //        CommonCellModel(title: "获取类型并判断", commonCellFlag: "getTypeCell"),
 //        CommonCellModel(title: "Struct使用", commonCellFlag: "structCell"),
@@ -125,14 +125,14 @@ class StyleViewController: BaseViewController {
         switch sender.commonCellFlag {
         case "lineHeightCell":
             targetVC = LineHeightViewController()
-//        case "rangeOperaterCell":
-//            targetVC = RangeOperatorViewController()
+        case "viperStudyCell":
+            targetVC = PostListWireFrame.createPostListModule()
 //        case "flowBranchCell":
 //            targetVC = FlowBranchViewController()
 //        case "getTypeCell":
 //            targetVC = GetTypeAndJudgeViewController()
 //        case "structCell":
-            targetVC = StructViewController()
+//            targetVC = StructViewController()
 //        case "cell-6":
 //            targetVC = KVOViewController()
 //        case "cell-7":

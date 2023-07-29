@@ -55,8 +55,8 @@ app.get("/getAllPosts", (req, res, next)=>{
 })
 
 httpServer.listen(PORT, function(){
-    console.log(`Mock server has been started. Listen to port ${PORT}...`)
+    console.log(`Mock server has been started. Listen to address: http://${localIp}:${PORT}`)
 })
-httpsServer.listen(SSLPORT, function(){
-    console.log(`Mock server has been started. Listen to port ${SSLPORT}...`)
-})
+// httpsServer.listen(SSLPORT, function(){
+//     console.log(`Mock server has been started. Listen to address: http://${localIp}:${SSLPORT}`)
+// })

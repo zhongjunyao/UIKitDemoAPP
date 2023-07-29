@@ -28,6 +28,33 @@
 		E35AF4782A717E34009E510D /* LocalizableViewControllerV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4732A717E33009E510D /* LocalizableViewControllerV2.swift */; };
 		E35AF4792A717E34009E510D /* RadioGroupV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4742A717E33009E510D /* RadioGroupV2.swift */; };
 		E35AF47A2A717E34009E510D /* LanguageV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4752A717E33009E510D /* LanguageV2.swift */; };
+		E35AF47E2A74B69C009E510D /* LineHeightViewController+TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF47D2A74B69C009E510D /* LineHeightViewController+TableDelegate.swift */; };
+		E35AF4812A74BAC7009E510D /* LineHeightTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4802A74BAC7009E510D /* LineHeightTableCellView.swift */; };
+		E35AF4832A74BF29009E510D /* LineHeightViewController+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4822A74BF29009E510D /* LineHeightViewController+Style.swift */; };
+		E35AF4852A74C78D009E510D /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4842A74C78D009E510D /* UILabel+Extension.swift */; };
+		E35AF4872A74CB7B009E510D /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4862A74CB7B009E510D /* UITableView+Extension.swift */; };
+		E35AF4892A74E1BE009E510D /* LineHeightOneMultipleTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4882A74E1BE009E510D /* LineHeightOneMultipleTableCellView.swift */; };
+		E35AF48B2A74F16D009E510D /* LineHeightSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF48A2A74F16D009E510D /* LineHeightSectionHeaderView.swift */; };
+		E35AF4A92A750BF0009E510D /* PostDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4912A750BF0009E510D /* PostDetailPresenter.swift */; };
+		E35AF4AA2A750BF0009E510D /* PostDetailWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4932A750BF0009E510D /* PostDetailWireFrame.swift */; };
+		E35AF4AB2A750BF0009E510D /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4952A750BF0009E510D /* PostDetailViewController.swift */; };
+		E35AF4AC2A750BF0009E510D /* PostDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4972A750BF0009E510D /* PostDetailProtocol.swift */; };
+		E35AF4AD2A750BF0009E510D /* PostListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF49B2A750BF0009E510D /* PostListLocalDataManager.swift */; };
+		E35AF4AE2A750BF0009E510D /* PostListRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF49D2A750BF0009E510D /* PostListRemoteDataManager.swift */; };
+		E35AF4AF2A750BF0009E510D /* PostListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF49F2A750BF0009E510D /* PostListPresenter.swift */; };
+		E35AF4B02A750BF0009E510D /* PostListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4A12A750BF0009E510D /* PostListWireFrame.swift */; };
+		E35AF4B12A750BF0009E510D /* PostListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4A32A750BF0009E510D /* PostListCell.swift */; };
+		E35AF4B22A750BF0009E510D /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4A42A750BF0009E510D /* PostListViewController.swift */; };
+		E35AF4B32A750BF0009E510D /* PostListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4A62A750BF0009E510D /* PostListInteractor.swift */; };
+		E35AF4B42A750BF0009E510D /* PostListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4A82A750BF0009E510D /* PostListProtocols.swift */; };
+		E35AF4B72A751398009E510D /* PersistenceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4B52A751398009E510D /* PersistenceError.swift */; };
+		E35AF4B82A751398009E510D /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4B62A751398009E510D /* Endpoints.swift */; };
+		E35AF4BA2A7515BC009E510D /* CommonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4B92A7515BC009E510D /* CommonList.swift */; };
+		E35AF4BE2A751989009E510D /* UIKitDemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4BB2A751989009E510D /* UIKitDemoApp.xcdatamodeld */; };
+		E35AF4BF2A751989009E510D /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4BD2A751989009E510D /* CoreDataStore.swift */; };
+		E35AF4C42A751A59009E510D /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4C12A751A59009E510D /* Post+CoreDataProperties.swift */; };
+		E35AF4C52A751A59009E510D /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4C22A751A59009E510D /* PostModel.swift */; };
+		E35AF4C62A751A59009E510D /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4C32A751A59009E510D /* Post+CoreDataClass.swift */; };
 		E36BEAB32A57EB8200D27813 /* StringEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BEAB22A57EB8200D27813 /* StringEmojiViewController.swift */; };
 		E36BEAB62A57EF2300D27813 /* RangeOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BEAB52A57EF2300D27813 /* RangeOperatorViewController.swift */; };
 		E36C6B7E2A2190E1009BC3CC /* UIKitDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B7D2A2190E1009BC3CC /* UIKitDemoAppTests.swift */; };
@@ -66,8 +93,8 @@
 		E371992E29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */; };
 		E371993029337D6700DFFB90 /* UIProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E371992F29337D6700DFFB90 /* UIProgressViewController.swift */; };
 		E3784FA42A1AF7F800E4BFD7 /* CommonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3784FA32A1AF7F800E4BFD7 /* CommonCell.swift */; };
-		E3784FA72A1AF8B300E4BFD7 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3784FA62A1AF8B300E4BFD7 /* UIApplicationExtension.swift */; };
-		E3784FA92A1AF8BC00E4BFD7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3784FA82A1AF8BC00E4BFD7 /* UIColorExtension.swift */; };
+		E3784FA72A1AF8B300E4BFD7 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3784FA62A1AF8B300E4BFD7 /* UIApplication+Extension.swift */; };
+		E3784FA92A1AF8BC00E4BFD7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3784FA82A1AF8BC00E4BFD7 /* UIColor+Extension.swift */; };
 		E3784FAC2A1AF93100E4BFD7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3784FAB2A1AF93100E4BFD7 /* BaseViewController.swift */; };
 		E3784FAE2A1B014C00E4BFD7 /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3784FAD2A1B014C00E4BFD7 /* CommonUtil.swift */; };
 		E3784FB02A1B38D600E4BFD7 /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3784FAF2A1B38D600E4BFD7 /* UILabelViewController.swift */; };
@@ -164,6 +191,33 @@
 		E35AF4732A717E33009E510D /* LocalizableViewControllerV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableViewControllerV2.swift; sourceTree = "<group>"; };
 		E35AF4742A717E33009E510D /* RadioGroupV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioGroupV2.swift; sourceTree = "<group>"; };
 		E35AF4752A717E33009E510D /* LanguageV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageV2.swift; sourceTree = "<group>"; };
+		E35AF47D2A74B69C009E510D /* LineHeightViewController+TableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LineHeightViewController+TableDelegate.swift"; sourceTree = "<group>"; };
+		E35AF4802A74BAC7009E510D /* LineHeightTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineHeightTableCellView.swift; sourceTree = "<group>"; };
+		E35AF4822A74BF29009E510D /* LineHeightViewController+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LineHeightViewController+Style.swift"; sourceTree = "<group>"; };
+		E35AF4842A74C78D009E510D /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		E35AF4862A74CB7B009E510D /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		E35AF4882A74E1BE009E510D /* LineHeightOneMultipleTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineHeightOneMultipleTableCellView.swift; sourceTree = "<group>"; };
+		E35AF48A2A74F16D009E510D /* LineHeightSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineHeightSectionHeaderView.swift; sourceTree = "<group>"; };
+		E35AF4912A750BF0009E510D /* PostDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
+		E35AF4932A750BF0009E510D /* PostDetailWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailWireFrame.swift; sourceTree = "<group>"; };
+		E35AF4952A750BF0009E510D /* PostDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		E35AF4972A750BF0009E510D /* PostDetailProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailProtocol.swift; sourceTree = "<group>"; };
+		E35AF49B2A750BF0009E510D /* PostListLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListLocalDataManager.swift; sourceTree = "<group>"; };
+		E35AF49D2A750BF0009E510D /* PostListRemoteDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListRemoteDataManager.swift; sourceTree = "<group>"; };
+		E35AF49F2A750BF0009E510D /* PostListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListPresenter.swift; sourceTree = "<group>"; };
+		E35AF4A12A750BF0009E510D /* PostListWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListWireFrame.swift; sourceTree = "<group>"; };
+		E35AF4A32A750BF0009E510D /* PostListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListCell.swift; sourceTree = "<group>"; };
+		E35AF4A42A750BF0009E510D /* PostListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
+		E35AF4A62A750BF0009E510D /* PostListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListInteractor.swift; sourceTree = "<group>"; };
+		E35AF4A82A750BF0009E510D /* PostListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListProtocols.swift; sourceTree = "<group>"; };
+		E35AF4B52A751398009E510D /* PersistenceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceError.swift; sourceTree = "<group>"; };
+		E35AF4B62A751398009E510D /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		E35AF4B92A7515BC009E510D /* CommonList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonList.swift; sourceTree = "<group>"; };
+		E35AF4BC2A751989009E510D /* UIKitDemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIKitDemoApp.xcdatamodel; sourceTree = "<group>"; };
+		E35AF4BD2A751989009E510D /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		E35AF4C12A751A59009E510D /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E35AF4C22A751A59009E510D /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		E35AF4C32A751A59009E510D /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E36BEAB22A57EB8200D27813 /* StringEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEmojiViewController.swift; sourceTree = "<group>"; };
 		E36BEAB52A57EF2300D27813 /* RangeOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperatorViewController.swift; sourceTree = "<group>"; };
 		E36C6B7B2A2190E1009BC3CC /* UIKitDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,8 +260,8 @@
 		E371992D29335ADF00DFFB90 /* UIActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		E371992F29337D6700DFFB90 /* UIProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewController.swift; sourceTree = "<group>"; };
 		E3784FA32A1AF7F800E4BFD7 /* CommonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCell.swift; sourceTree = "<group>"; };
-		E3784FA62A1AF8B300E4BFD7 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
-		E3784FA82A1AF8BC00E4BFD7 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E3784FA62A1AF8B300E4BFD7 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		E3784FA82A1AF8BC00E4BFD7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		E3784FAB2A1AF93100E4BFD7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E3784FAD2A1B014C00E4BFD7 /* CommonUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
 		E3784FAF2A1B38D600E4BFD7 /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
@@ -363,7 +417,8 @@
 		E35AF44E2A70AA20009E510D /* StyleControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E35AF44C2A70AA13009E510D /* LineHeightViewController.swift */,
+				E35AF47C2A74B68B009E510D /* LineHeight */,
+				E35AF48C2A74FFA9009E510D /* Viper */,
 			);
 			path = StyleControllers;
 			sourceTree = "<group>";
@@ -390,6 +445,107 @@
 				E35AF4742A717E33009E510D /* RadioGroupV2.swift */,
 			);
 			path = LocalizableViewControllerV2;
+			sourceTree = "<group>";
+		};
+		E35AF47C2A74B68B009E510D /* LineHeight */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF47F2A74BA74009E510D /* View */,
+				E35AF44C2A70AA13009E510D /* LineHeightViewController.swift */,
+			);
+			path = LineHeight;
+			sourceTree = "<group>";
+		};
+		E35AF47F2A74BA74009E510D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF48A2A74F16D009E510D /* LineHeightSectionHeaderView.swift */,
+				E35AF4802A74BAC7009E510D /* LineHeightTableCellView.swift */,
+				E35AF4882A74E1BE009E510D /* LineHeightOneMultipleTableCellView.swift */,
+				E35AF4822A74BF29009E510D /* LineHeightViewController+Style.swift */,
+				E35AF47D2A74B69C009E510D /* LineHeightViewController+TableDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E35AF48C2A74FFA9009E510D /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF4B62A751398009E510D /* Endpoints.swift */,
+				E35AF4B52A751398009E510D /* PersistenceError.swift */,
+				E35AF4C02A751A59009E510D /* Entities */,
+				E35AF48F2A750BF0009E510D /* PostDetail */,
+				E35AF4982A750BF0009E510D /* PostList */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		E35AF48F2A750BF0009E510D /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF4952A750BF0009E510D /* PostDetailViewController.swift */,
+				E35AF4912A750BF0009E510D /* PostDetailPresenter.swift */,
+				E35AF4932A750BF0009E510D /* PostDetailWireFrame.swift */,
+				E35AF4972A750BF0009E510D /* PostDetailProtocol.swift */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		E35AF4982A750BF0009E510D /* PostList */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF4992A750BF0009E510D /* DataManager */,
+				E35AF4A22A750BF0009E510D /* View */,
+				E35AF4A42A750BF0009E510D /* PostListViewController.swift */,
+				E35AF4A62A750BF0009E510D /* PostListInteractor.swift */,
+				E35AF49F2A750BF0009E510D /* PostListPresenter.swift */,
+				E35AF4A82A750BF0009E510D /* PostListProtocols.swift */,
+				E35AF4A12A750BF0009E510D /* PostListWireFrame.swift */,
+			);
+			path = PostList;
+			sourceTree = "<group>";
+		};
+		E35AF4992A750BF0009E510D /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF49A2A750BF0009E510D /* Local */,
+				E35AF49C2A750BF0009E510D /* Remote */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		E35AF49A2A750BF0009E510D /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF49B2A750BF0009E510D /* PostListLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		E35AF49C2A750BF0009E510D /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF49D2A750BF0009E510D /* PostListRemoteDataManager.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		E35AF4A22A750BF0009E510D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF4A32A750BF0009E510D /* PostListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E35AF4C02A751A59009E510D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF4C12A751A59009E510D /* Post+CoreDataProperties.swift */,
+				E35AF4C22A751A59009E510D /* PostModel.swift */,
+				E35AF4C32A751A59009E510D /* Post+CoreDataClass.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		E36BEAB42A57EB8A00D27813 /* SwiftControllers */ = {
@@ -602,6 +758,7 @@
 		E3784FA22A1AF7E500E4BFD7 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				E35AF4B92A7515BC009E510D /* CommonList.swift */,
 				E3784FA32A1AF7F800E4BFD7 /* CommonCell.swift */,
 				E33572CB2A2097E500B48940 /* CommonTabBar.swift */,
 				E36C6C062A4EAAF9009BC3CC /* Toast.swift */,
@@ -615,8 +772,10 @@
 		E3784FA52A1AF8A800E4BFD7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				E3784FA62A1AF8B300E4BFD7 /* UIApplicationExtension.swift */,
-				E3784FA82A1AF8BC00E4BFD7 /* UIColorExtension.swift */,
+				E35AF4842A74C78D009E510D /* UILabel+Extension.swift */,
+				E3784FA62A1AF8B300E4BFD7 /* UIApplication+Extension.swift */,
+				E3784FA82A1AF8BC00E4BFD7 /* UIColor+Extension.swift */,
+				E35AF4862A74CB7B009E510D /* UITableView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -731,6 +890,8 @@
 				E35AF44B2A70A9B0009E510D /* Style */,
 				E36C6C152A5180AF009BC3CC /* SwiftLanguage */,
 				E37908362929E9FA004DF0DF /* AppDelegate.swift */,
+				E35AF4BD2A751989009E510D /* CoreDataStore.swift */,
+				E35AF4BB2A751989009E510D /* UIKitDemoApp.xcdatamodeld */,
 				E379083F2929E9FC004DF0DF /* Assets.xcassets */,
 				E37908442929E9FC004DF0DF /* Info.plist */,
 				E3DEA8342A6EAF58009EBCB1 /* LaunchScreen.storyboard */,
@@ -1012,6 +1173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E36C6C142A5180A7009BC3CC /* SwiftLanguageViewController.swift in Sources */,
+				E35AF4AC2A750BF0009E510D /* PostDetailProtocol.swift in Sources */,
 				E3784FD82A1C87A400E4BFD7 /* UINavigationControllerViewController.swift in Sources */,
 				E3784FCC2A1BC4BC00E4BFD7 /* UIAlertViewViewController.swift in Sources */,
 				E3EF46F72A5E563F006CA7DF /* GetTypeAndJudgeViewController.swift in Sources */,
@@ -1032,48 +1194,68 @@
 				E36C6BDF2A247F32009BC3CC /* CombineViewController.swift in Sources */,
 				E36BEAB32A57EB8200D27813 /* StringEmojiViewController.swift in Sources */,
 				E3A84B8A2A1F06580013B180 /* TabTwoViewController.swift in Sources */,
+				E35AF4AA2A750BF0009E510D /* PostDetailWireFrame.swift in Sources */,
+				E35AF4A92A750BF0009E510D /* PostDetailPresenter.swift in Sources */,
 				E36C6BD12A21ABAB009BC3CC /* UIKitThirdViewController.swift in Sources */,
 				E35AF4572A70CE4A009E510D /* Language.swift in Sources */,
 				E36BEAB62A57EF2300D27813 /* RangeOperatorViewController.swift in Sources */,
+				E35AF4B22A750BF0009E510D /* PostListViewController.swift in Sources */,
 				E35AF4782A717E34009E510D /* LocalizableViewControllerV2.swift in Sources */,
 				E36C6C292A53A965009BC3CC /* Product.swift in Sources */,
 				E33572D82A20A3D600B48940 /* ReloadOperater.swift in Sources */,
+				E35AF4C52A751A59009E510D /* PostModel.swift in Sources */,
 				E3B266B92A5BDC17009C9C5E /* FlowBranchViewController.swift in Sources */,
 				E379083B2929E9FA004DF0DF /* HomeViewController.swift in Sources */,
 				E335730D2A20CC1A00B48940 /* BaseNavigationController.swift in Sources */,
 				E3784FDE2A1C894E00E4BFD7 /* UIWebViewViewController.swift in Sources */,
 				E3784FEF2A1CE05000E4BFD7 /* UITableViewMovingViewController.swift in Sources */,
+				E35AF4892A74E1BE009E510D /* LineHeightOneMultipleTableCellView.swift in Sources */,
 				E36C6BD92A22E6F7009BC3CC /* KVOViewController.swift in Sources */,
 				E35AF4532A70C124009E510D /* RadioGroup.swift in Sources */,
 				E35AF4762A717E34009E510D /* LocalizableViewControllerV2+StyleV2.swift in Sources */,
 				E33572DA2A20BE1A00B48940 /* SwiftOCInteraction.swift in Sources */,
 				E36C6B972A21A5B1009BC3CC /* SwiftUIView.swift in Sources */,
+				E35AF4B32A750BF0009E510D /* PostListInteractor.swift in Sources */,
+				E35AF4AE2A750BF0009E510D /* PostListRemoteDataManager.swift in Sources */,
 				E35AF4552A70C2BD009E510D /* LocalizableViewController+Style.swift in Sources */,
-				E3784FA92A1AF8BC00E4BFD7 /* UIColorExtension.swift in Sources */,
+				E3784FA92A1AF8BC00E4BFD7 /* UIColor+Extension.swift in Sources */,
 				E3784FA42A1AF7F800E4BFD7 /* CommonCell.swift in Sources */,
 				E36C6BE92A287F00009BC3CC /* NotificationViewController.swift in Sources */,
 				E3784FD32A1C679B00E4BFD7 /* UIScrollViewViewController2.swift in Sources */,
 				E33572D02A20A1E900B48940 /* SeniorViewController.swift in Sources */,
 				E36C6C272A53A94D009BC3CC /* Deal.swift in Sources */,
+				E35AF4852A74C78D009E510D /* UILabel+Extension.swift in Sources */,
 				E3A84B822A1E4BD30013B180 /* UICollectionViewCustomLayoutViewController.swift in Sources */,
 				E3784FC32A1BB21E00E4BFD7 /* UIPageControlViewController.swift in Sources */,
+				E35AF4BA2A7515BC009E510D /* CommonList.swift in Sources */,
 				E3784FDA2A1C885700E4BFD7 /* UIStackViewViewController.swift in Sources */,
 				E36C6BF12A480B37009BC3CC /* AccessibilityViewController.swift in Sources */,
+				E35AF4B72A751398009E510D /* PersistenceError.swift in Sources */,
 				E3784FC72A1BC28D00E4BFD7 /* UIAlertControllerViewController.swift in Sources */,
+				E35AF4872A74CB7B009E510D /* UITableView+Extension.swift in Sources */,
+				E35AF4B82A751398009E510D /* Endpoints.swift in Sources */,
 				E3784FE42A1C8A5100E4BFD7 /* UITextViewViewController.swift in Sources */,
 				E3784FB02A1B38D600E4BFD7 /* UILabelViewController.swift in Sources */,
+				E35AF4AF2A750BF0009E510D /* PostListPresenter.swift in Sources */,
 				E3784FB42A1B423800E4BFD7 /* UIImageViewController.swift in Sources */,
+				E35AF4AB2A750BF0009E510D /* PostDetailViewController.swift in Sources */,
 				E3784FC92A1BC29800E4BFD7 /* UIAlertControllerViewController2.swift in Sources */,
 				E35AF4792A717E34009E510D /* RadioGroupV2.swift in Sources */,
+				E35AF4B12A750BF0009E510D /* PostListCell.swift in Sources */,
+				E35AF47E2A74B69C009E510D /* LineHeightViewController+TableDelegate.swift in Sources */,
 				E3A84B802A1DA0B80013B180 /* UICollectionViewFlowLayoutViewController2.swift in Sources */,
 				E3784FED2A1CBAC000E4BFD7 /* UITableViewEditingViewController.swift in Sources */,
 				E36C6BD72A222688009BC3CC /* FeatureIntegration.swift in Sources */,
 				E3784FC02A1B71FB00E4BFD7 /* UISegmentedViewController.swift in Sources */,
+				E35AF4C62A751A59009E510D /* Post+CoreDataClass.swift in Sources */,
 				E3784FAE2A1B014C00E4BFD7 /* CommonUtil.swift in Sources */,
 				E35AF4772A717E34009E510D /* RadioButtonV2.swift in Sources */,
 				E3784FD02A1C432700E4BFD7 /* UIScrollViewViewController.swift in Sources */,
 				E3784FE62A1C8A9C00E4BFD7 /* UITableViewPlainViewController.swift in Sources */,
+				E35AF4832A74BF29009E510D /* LineHeightViewController+Style.swift in Sources */,
+				E35AF4812A74BAC7009E510D /* LineHeightTableCellView.swift in Sources */,
 				E3A84B882A1F064B0013B180 /* TabOneViewController.swift in Sources */,
+				E35AF4B02A750BF0009E510D /* PostListWireFrame.swift in Sources */,
 				E3784FEB2A1CB0A700E4BFD7 /* UITableViewHeaderAndFooterViewController.swift in Sources */,
 				E3784FDC2A1C88D100E4BFD7 /* UICollectionViewFlowLayoutViewController.swift in Sources */,
 				E3A84B852A1E669A0013B180 /* DestinationViewController.swift in Sources */,
@@ -1084,6 +1266,8 @@
 				E37908372929E9FA004DF0DF /* AppDelegate.swift in Sources */,
 				E3784FAC2A1AF93100E4BFD7 /* BaseViewController.swift in Sources */,
 				E3955ABD293232B60041D4F7 /* UISliderViewController2.swift in Sources */,
+				E35AF4C42A751A59009E510D /* Post+CoreDataProperties.swift in Sources */,
+				E35AF4AD2A750BF0009E510D /* PostListLocalDataManager.swift in Sources */,
 				E3955AB32931DC0C0041D4F7 /* UISegmentedViewController2.swift in Sources */,
 				E36C6BD52A21B7FA009BC3CC /* UIScreenEdgePanGestureRecognizerViewController.swift in Sources */,
 				E3784FB92A1B526B00E4BFD7 /* UISearchBarViewController.swift in Sources */,
@@ -1098,6 +1282,7 @@
 				E36C6C1E2A539C11009BC3CC /* UICollectionViewCustomBannerViewController.swift in Sources */,
 				E3784FCE2A1C3EBF00E4BFD7 /* UIActionSheetViewController.swift in Sources */,
 				E3784FD62A1C86C500E4BFD7 /* UITabBarControllerViewController.swift in Sources */,
+				E35AF48B2A74F16D009E510D /* LineHeightSectionHeaderView.swift in Sources */,
 				E3784FBE2A1B6D9D00E4BFD7 /* UISwitchViewController.swift in Sources */,
 				E35AF44D2A70AA13009E510D /* LineHeightViewController.swift in Sources */,
 				E36C6BFF2A4C7BAA009BC3CC /* LocalizableViewController2.swift in Sources */,
@@ -1110,10 +1295,13 @@
 				E33573152A2113CD00B48940 /* SwiftViewController.swift in Sources */,
 				E33572D62A20A28A00B48940 /* CommonTabBarItemModel.swift in Sources */,
 				E3784FB22A1B38E500E4BFD7 /* UIButtonViewController.swift in Sources */,
-				E3784FA72A1AF8B300E4BFD7 /* UIApplicationExtension.swift in Sources */,
+				E3784FA72A1AF8B300E4BFD7 /* UIApplication+Extension.swift in Sources */,
+				E35AF4BE2A751989009E510D /* UIKitDemoApp.xcdatamodeld in Sources */,
 				E35AF44A2A70A9A3009E510D /* StyleViewController.swift in Sources */,
 				E3DEA8372A6ECE8E009EBCB1 /* UnorderListViewController2.swift in Sources */,
 				E33572CC2A2097E500B48940 /* CommonTabBar.swift in Sources */,
+				E35AF4B42A750BF0009E510D /* PostListProtocols.swift in Sources */,
+				E35AF4BF2A751989009E510D /* CoreDataStore.swift in Sources */,
 				E3784FB72A1B4A7600E4BFD7 /* UIImageViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1437,6 +1625,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E35AF4BB2A751989009E510D /* UIKitDemoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E35AF4BC2A751989009E510D /* UIKitDemoApp.xcdatamodel */,
+			);
+			currentVersion = E35AF4BC2A751989009E510D /* UIKitDemoApp.xcdatamodel */;
+			path = UIKitDemoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E379082B2929E9FA004DF0DF /* Project object */;
 }

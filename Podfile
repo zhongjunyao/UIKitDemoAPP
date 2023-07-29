@@ -3,10 +3,13 @@ platform :ios, "13.0"
 use_frameworks!
 
 target "UIKitDemoApp" do
-
+  pod 'Alamofire', '~> 4.7.3'
+  pod 'AlamofireObjectMapper', '~> 5.2'
+  pod 'AlamofireImage', '~> 3.3'
   pod "Kingfisher", "~> 6.3.1"
   pod "SnapKit"
   pod "R.swift"
+  pod 'PKHUD', '~> 5.0'
 
 end
 
