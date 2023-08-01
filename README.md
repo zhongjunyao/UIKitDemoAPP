@@ -18,9 +18,9 @@ UIKitDemoApp for learning UIKit
 #### 页面效果
 <table style="width:100%;table-layout: fixed;">
     <tr>
-        <td width="50%"><img src="./Images/1@2x.png"></td>
-        <td width="50%"><img src="./Images/2@2x.png"></td>
-        <td width="50%"><img src="./Images/3@2x.png"></td>
+        <td><img src="./Images/1@2x.png"></td>
+        <td><img src="./Images/2@2x.png"></td>
+        <td><img src="./Images/3@2x.png"></td>
     </tr>
 </table>
 
