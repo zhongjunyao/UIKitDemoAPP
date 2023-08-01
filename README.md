@@ -20,6 +20,7 @@ UIKitDemoApp for learning UIKit
     <tr>
         <td width="50%"><img src="./Images/1@2x.png"></td>
         <td width="50%"><img src="./Images/2@2x.png"></td>
+        <td width="50%"><img src="./Images/3@2x.png"></td>
     </tr>
 </table>
 
