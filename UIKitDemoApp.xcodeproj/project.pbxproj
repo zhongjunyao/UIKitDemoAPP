@@ -55,6 +55,8 @@
 		E35AF4C42A751A59009E510D /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4C12A751A59009E510D /* Post+CoreDataProperties.swift */; };
 		E35AF4C52A751A59009E510D /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4C22A751A59009E510D /* PostModel.swift */; };
 		E35AF4C62A751A59009E510D /* Post+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4C32A751A59009E510D /* Post+CoreDataClass.swift */; };
+		E35AF4C82A788DDC009E510D /* CodableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4C72A788DDC009E510D /* CodableViewController.swift */; };
+		E35AF4CB2A788F05009E510D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AF4CA2A788F05009E510D /* Person.swift */; };
 		E36BEAB32A57EB8200D27813 /* StringEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BEAB22A57EB8200D27813 /* StringEmojiViewController.swift */; };
 		E36BEAB62A57EF2300D27813 /* RangeOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BEAB52A57EF2300D27813 /* RangeOperatorViewController.swift */; };
 		E36C6B7E2A2190E1009BC3CC /* UIKitDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36C6B7D2A2190E1009BC3CC /* UIKitDemoAppTests.swift */; };
@@ -218,6 +220,8 @@
 		E35AF4C12A751A59009E510D /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E35AF4C22A751A59009E510D /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		E35AF4C32A751A59009E510D /* Post+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E35AF4C72A788DDC009E510D /* CodableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableViewController.swift; sourceTree = "<group>"; };
+		E35AF4CA2A788F05009E510D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		E36BEAB22A57EB8200D27813 /* StringEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEmojiViewController.swift; sourceTree = "<group>"; };
 		E36BEAB52A57EF2300D27813 /* RangeOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperatorViewController.swift; sourceTree = "<group>"; };
 		E36C6B7B2A2190E1009BC3CC /* UIKitDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -381,6 +385,7 @@
 				E36C6C0C2A4F2270009BC3CC /* CustomModal */,
 				E36C6C192A51AEB3009BC3CC /* Dispatch */,
 				E36C6C1C2A52A771009BC3CC /* SystemConfiguration */,
+				E35AF4C92A788DE2009E510D /* Codable */,
 			);
 			path = SeniorControllers;
 			sourceTree = "<group>";
@@ -546,6 +551,15 @@
 				E35AF4C32A751A59009E510D /* Post+CoreDataClass.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		E35AF4C92A788DE2009E510D /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				E35AF4CA2A788F05009E510D /* Person.swift */,
+				E35AF4C72A788DDC009E510D /* CodableViewController.swift */,
+			);
+			path = Codable;
 			sourceTree = "<group>";
 		};
 		E36BEAB42A57EB8A00D27813 /* SwiftControllers */ = {
@@ -1179,6 +1193,7 @@
 				E3EF46F72A5E563F006CA7DF /* GetTypeAndJudgeViewController.swift in Sources */,
 				E36C6C0E2A4F3FB3009BC3CC /* AnimationViewController.swift in Sources */,
 				E36C6BD32A21B698009BC3CC /* AsyncAwaitViewController.swift in Sources */,
+				E35AF4C82A788DDC009E510D /* CodableViewController.swift in Sources */,
 				E3784FE92A1CADAB00E4BFD7 /* UITableViewGroupedViewController.swift in Sources */,
 				E36C6C252A53A92F009BC3CC /* FakeData.swift in Sources */,
 				E36C6C222A539D04009BC3CC /* BannerCell.swift in Sources */,
@@ -1280,6 +1295,7 @@
 				E36C6C1B2A52A76D009BC3CC /* SCNetworkReachabilityCreateWithAddressViewController.swift in Sources */,
 				E36C6C182A51AEAC009BC3CC /* DispatchGroupViewController.swift in Sources */,
 				E36C6C1E2A539C11009BC3CC /* UICollectionViewCustomBannerViewController.swift in Sources */,
+				E35AF4CB2A788F05009E510D /* Person.swift in Sources */,
 				E3784FCE2A1C3EBF00E4BFD7 /* UIActionSheetViewController.swift in Sources */,
 				E3784FD62A1C86C500E4BFD7 /* UITabBarControllerViewController.swift in Sources */,
 				E35AF48B2A74F16D009E510D /* LineHeightSectionHeaderView.swift in Sources */,

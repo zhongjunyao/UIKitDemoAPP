@@ -30,7 +30,7 @@ class SeniorViewController: BaseViewController {
         CommonCellModel(title: "自定义底部弹窗", commonCellFlag: "cell-15"),
         CommonCellModel(title: "DispatchGroup的用法", commonCellFlag: "cell-16"),
         CommonCellModel(title: "Network-可连接性检查", commonCellFlag: "cell-17"),
-//        CommonCellModel(title: "UIStepperView-步进控制器", commonCellFlag: "stepperCell"),
+        CommonCellModel(title: "Codable解析协议(重点)", commonCellFlag: "codableCell"),
 //
 //        CommonCellModel(title: "UIAlertView-警告框", commonCellFlag: "alertCell"),
 //        CommonCellModel(title: "UIAlertController-警告控制器-警告框风格", commonCellFlag: "alertCell2"),
@@ -160,8 +160,8 @@ class SeniorViewController: BaseViewController {
             targetVC = DispatchGroupViewController()
         case "cell-17":
             targetVC = SCNetworkReachabilityCreateWithAddressViewController()
-//        case "alertCell2":
-//            targetVC = UIAlertControllerViewController()
+        case "codableCell":
+            targetVC = CodableViewController()
 //        case "actionSheetCell":
 //            targetVC = UIActionSheetViewController()
 //        case "actionSheetCell2":
